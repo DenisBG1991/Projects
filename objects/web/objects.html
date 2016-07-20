@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="objects.js" ></script>
+    <meta charset="UTF-8">
+    <title>objects</title>
+</head>
+<body>
+<script type="text/javascript">
+    var from = {};
+    from.x = 1;
+    from.y = 2;
+    from.z = "to-to";
+    from.r = true;
+    var to = {};
+    to = copyProperty(from, to);
+    alert (getProperty({o: to}));
+    from.t = "mo-mo";
+    alert (getProperty({o: copyUndefinedProperty(from, to)}));
+</script>
+</body>
+</html>

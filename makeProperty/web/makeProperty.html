@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="makeProperty.js" ></script>
+    <meta charset="UTF-8">
+    <title>objects</title>
+</head>
+<body>
+<script type="text/javascript">
+    var o = {};
+    makeProperty(o, "Name", function(x){return typeof x =="string";});
+    o.setName("Denis");
+    alert(o.getName());
+    o.setName(0);
+</script>
+</body>
+</html>

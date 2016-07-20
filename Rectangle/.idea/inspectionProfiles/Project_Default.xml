@@ -1,0 +1,8 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="JSDuplicatedDeclaration" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="JSUnfilteredForInLoop" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="TrivialIfJS" enabled="true" level="TYPO" enabled_by_default="true" />
+  </profile>
+</component>

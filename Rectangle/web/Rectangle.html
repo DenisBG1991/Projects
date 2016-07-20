@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript" src="rectangle.js"></script>
+    <meta charset="UTF-8">
+    <title>Rectangle</title>
+</head>
+<body>
+    <script>
+        var r = new PositionedRectangle(2,2,2,2);
+        var p = new Rectangle(1,2);
+        alert(getType(r));
+        alert(getType(p));
+        alert(r.contains(3,3));
+        alert(r.area());
+        alert(r.x + " , " + r.y + " , " + r.width + " , " + r.height);
+        alert(r instanceof PositionedRectangle && r instanceof Rectangle && r instanceof Object);
+    </script>
+</body>
+</html>

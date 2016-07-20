@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--suppress ALL -->
+<html lang="en">
+<head>
+    <script type="text/javascript" src="defineClass.js"></script>
+    <meta charset="UTF-8">
+    <title>DefineClass</title>
+</head>
+<body>
+    <script>
+        var Comparable = defineClass({
+            name: "Comparable",
+            methods: {compareTo : function(that){throw "abstract";}}
+        });
+        alert(Comparable.toString());
+
+        var GenericEquals = defineClass({
+            name: "GenericEquals",
+            methods: {
+                equals: function(that){
+                    if (this == that) return true;
+                    var propsInThat = 0;
+                    for (var name in that){
+                        propsInThat++;
+                        if (this[name] !== that[name]) return false;
+                    }
+
+                    //Убедиться, что объект this не имеет дополнительных свойств.
+                    var propsInThis = 0;
+                    for (var name in this) propsInThis++;
+
+                    //Если тмеются дополнительные свойства, объекты равны не будут.
+                    if (propsInThat != propsInThis) return false;
+
+                    //Похоже, что два объекта эквивалентны.
+                    return true;
+                }
+            }
+        });
+
+        // Очень прстой класс Rectangle, который предоставляет интерфейс Comparable.
+        var Rectangle;
+        Rectangle = defineClass({
+            name: "Rectangle",
+            construct: function (w, h) {
+                this.width = w;
+                this.height = h;
+            },
+            methods: {
+                area: function(){
+                    return this.width*this.height;
+                },
+                compareTo: function(that){
+                    return this.area()-that.area();
+                }
+            },
+            provides: Comparable
+        });
+
+        // Подкласс класса Rectangle, который вызывает по цепочке конструктор своего
+        // надкласса, наследует методы надкласса, определяет свои методы экземпляра
+        // и статические методы и заимствует метод equals().
+        var PositionedRectangle = defineClass({
+            name: "PositionedRectangle",
+            extend: Rectangle,
+            construct: function(x, y, w, h){
+                this.supperclass(w, h); // вызов по цепочке.
+                this.x = x;
+                this.y = y;
+            },
+            methods: {
+                isInside: function(x, y){
+                    return x > this.x && x < this.x + this.width &&
+                                    y > this.y && y < this.y + this.height;
+                }
+            },
+            statics: {
+                comparator: function(a, b) {
+                    return a.compareTo(b);
+                }
+            },
+            borrows: [GenericEquals]
+        });
+    </script>
+</body>
+</html>
