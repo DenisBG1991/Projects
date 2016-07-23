@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript" src="module.js"></script>
+    <meta charset="UTF-8">
+    <title>Module</title>
+</head>
+<body>
+    <script>
+        // Создать пространство имен модуля.
+        Module.createNamespace("com.denisboriskov.Class",1.1);
+        alert(Module.isDefined("com.denisboriskov.Class"));
+
+        // Заполнить это пространство имен.
+        com.denisboriskov.Class.define = function(data){/* тело функции */};
+        com.denisboriskov.Class.provides = function(o, c){/* тело функции */};
+
+        // Модуль Complex например требует, чтобы предварительно был загружен модуль Class.
+        Module.require("com.denisboriskov.Class", 1.0);
+
+        // Импортировать символя по умолчанию модуля Module в глобальное пространство имен.
+        // Одним из таких символов по умолчанию является сама функция importSymbols.
+        Module.importSymbols(Module);       // Отметьте, что мы передаем пространство
+                                            // имен, а не имя модуля.
+
+        // Импортировать класс Complex в глобальное пространство имен.
+        importSymbols(com.denisboriskov.Class);
+
+        // Импортировать метод com.denisboriskov.Class.define() в объект Class
+        var Class = {};
+        importSymbols(com.denisboriskov.Class, Class, "define");
+    </script>
+</body>
+</html>
