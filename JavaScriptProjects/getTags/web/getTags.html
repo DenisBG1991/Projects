@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function countTags(n){
+            var numtags = 0;
+            if (n.nodeType == 1){
+                numtags++;
+            }
+            var children = n.childNodes;
+            for (var i = 0; i < children.length; i++){
+                numtags += countTags(children[i]);
+            }
+            return numtags;
+        }
+
+        function getTags(n){
+            var strings = [];
+            getStrings(n, strings);
+            return strings.join(",");
+        }
+
+        function getStrings(n, strings){
+            if (n.nodeType == 1){
+                strings.push(n.nodeName);
+            }
+            var childrens = n.childNodes;
+            for (var j = 0; j < childrens.length; j++){
+                getStrings(childrens[j],strings);
+            }
+        }
+    </script>
+</head>
+<body onload = "alert('Количество тегов в документе: ' + countTags(document) + '\n' +
+                      'Теги: ' + getTags(document)) + ',  '">
+Это <i>пример</i> документа.
+</body>
+</html>
