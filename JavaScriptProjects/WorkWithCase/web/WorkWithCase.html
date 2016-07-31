@@ -5,10 +5,16 @@
     <title>Title</title>
 </head>
 <body>
-Это <i>пример</i> документа.
+<p id = "p1">
+    Это <i>первый пример</i> документа.
+</p>
+<p id = "p2">
+    Это <i>второй пример</i> документа.
+</p>
 <br><br>
 <input value="Увеличение текста" type="button" onClick="upcase(document)">
 <input value="Уменьшение текста" type="button" onClick="downcase(document)">
+<input value="Выделение текста" type="button" onClick="embolden('p1')">
 <script>
     function upcase (n){
         if (n.nodeType == 3){
@@ -27,6 +33,15 @@
             var kids = d.childNodes;
             for (var  i = 0; i < kids.length; i++) downcase(kids[i]);
         }
+    }
+    function embolden (n){
+        if (typeof n == "string"){
+            n = document.getElementById(n);
+        }
+        var b = document.createElement("b");
+        var parent = n.parentNode;
+        parent.replaceChild(b, n);
+        b.appendChild(n);
     }
 </script>
 </body>
