@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+Это <i>пример</i> документа.
+<br><br>
+<input value="Увеличение текста" type="button" onClick="upcase(document)">
+<input value="Уменьшение текста" type="button" onClick="downcase(document)">
+<script>
+    function upcase (n){
+        if (n.nodeType == 3){
+            n.data = n.data.toUpperCase();
+        }
+        else {
+            var kids = n.childNodes;
+            for (var  i = 0; i < kids.length; i++) upcase(kids[i]);
+        }
+    }
+    function downcase (d){
+        if (d.nodeType == 3){
+            d.data = d.data.toLowerCase();
+        }
+        else {
+            var kids = d.childNodes;
+            for (var  i = 0; i < kids.length; i++) downcase(kids[i]);
+        }
+    }
+</script>
+</body>
+</html>
