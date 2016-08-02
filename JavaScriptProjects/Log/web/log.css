@@ -1,0 +1,37 @@
+#debug_log {    /* Стили оформления контейнера с отладочными сообщениями */
+    background-color: #aaa;      /* Серый фон */
+    border: solid black 2px;     /* Черная рамка */
+    overflow: auto;              /* Полосы прокрутки */
+    width: 75%;                  /* Ограничить ширину элемента */
+    height: 300px;               /* Ограничить размер по вертикали */
+}
+
+#debug_log:before {     /* Заголовок области вывода сообщений */
+    content: "Отладочное сообщение debug";
+    display: block;
+    text-align: center;
+    font: bold 18pt sans-serif;
+}
+
+.debug_message {        /* Отделять сообщения тонкой горизонтальной линией */
+    border-bottom: solid black 1px;
+}
+
+#warning_log {    /* Стили оформления контейнера с отладочными сообщениями */
+    background-color: #aa7085;      /* Серый фон */
+    border: solid black 2px;     /* Черная рамка */
+    overflow: auto;              /* Полосы прокрутки */
+    width: 75%;                  /* Ограничить ширину элемента */
+    height: 300px;               /* Ограничить размер по вертикали */
+}
+
+#warning_log:before {     /* Заголовок области вывода сообщений */
+    content: "Отладочное сообщение warning";
+    display: block;
+    text-align: center;
+    font: bold 18pt sans-serif;
+}
+
+.warning_message {        /* Отделять сообщения тонкой горизонтальной линией */
+    border-bottom: solid #0b0db5 1px;
+}

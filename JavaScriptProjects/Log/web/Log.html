@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="application/javascript" src="log.js"></script>
+    <link rel="stylesheet" type="text/css" href="log.css">
+    <meta charset="UTF-8">
+    <title>Log</title>
+</head>
+<body>
+<script>
+    var pressure = 1;
+    function makeRectangle(x, y, w, h){         // Это отлаживаемая функция
+        //log.options.timestamp = true;
+        //log.options.debugDisabled = true;
+        //log.options.maxRecursion = 0;
+        //log.options.debugEnabled = true;
+        log.options.alertEnabled = true;
+        log.warn("начало makeRectangle");      // Вывод сообщения
+        var r = {x:x, y:y, size: {w: w, h:h}};
+        log.warn("Новый прямоугольник", r);    // Вывод объекта
+        log.warn("конец makeRectangle");       // Вывод другого сообщения
+        //log.options.debugDisabled = true;
+        alert("Количество нажатий " + pressure++);
+        return r;
+    }
+</script>
+<!-- этой кнопкой вызывается отлаживаемая функция -->
+<button onclick="makeRectangle(1,2,3,4);">Создать прямоугольник</button>
+<button onclick="makeRectangle(23,4,54,23);">Создать прямоугольник</button>
+<!-- Это место для вывода сообщений -->
+<!-- Вывод сообщения разрешается созданием элемента <div> в документе -->
+<!--<div id = "debug_log" class="log"></div> -->
+<div id = "warning_log" class="log"></div>
+</body>
+</html>
