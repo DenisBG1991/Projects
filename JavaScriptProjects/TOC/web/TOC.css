@@ -1,0 +1,12 @@
+#toc{/* Следующие стили применяются к конкретному элементу с оглавлением */
+    background: #ddd;               /* фон светло-серого цвета */
+    border: solid black 1px;        /* простейшая рамка */
+    margin: 10px; padding: 10px;    /* отступы */
+}
+.TOCEntry {font-family: sans-serif;}    /* Пункты выводить шрифтом sans-serif */
+.TOCEntry a {text-decoration: none;}    /* Ссылки не подчеркивать */
+.TOCLevel1 {font-size: 16pt; font-weight: bold;}    /* Пункты первого уровня крупным жирным шрифтом */
+.TOCLevel2 {font-size: 12pt; margin-left: .5in;}    /* Пункты второго уровня с отступом */
+.TOCLevel3 {font-size: 12pt; margin-left: 1in;}    /* Пункты третьего уровня уровня с отступом */
+.TOCBackLink {display: block;}      /* Обратные ссылки в той же строке */
+.TOCSectNum:after {content: ":";}   /* Добавлять двоеточие после номера раздела */
