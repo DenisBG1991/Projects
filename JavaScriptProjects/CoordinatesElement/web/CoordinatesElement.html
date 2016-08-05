@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Coordinates element</title>
+    <link rel="stylesheet" type="text/css" href="coordinates.css">
+</head>
+<body>
+<script>
+    function getX(element){
+        var x = 0;
+        for (var e = element; e; e = e.offsetParent){
+            x += e.offsetLeft;
+        }
+        for (e = element.parentNode; e && e != document.body; e = e.parentNode){
+            if (e.scrollLeft) {
+                x -= e.scrollLeft;
+            }
+        }
+        return x;
+    }
+    function getY(element){
+        var y = 0;
+        for (var e = element; e; e = e.offsetParent){
+            y += e.offsetTop;
+        }
+        for (e = element.parentNode; e && e != document.body; e = e.parentNode){
+            if (e.scrollTop) {
+                y -= e.scrollTop;
+            }
+        }
+        return y;
+    }
+
+    function hola (){
+        var hola = [];
+        var ele = document.getElementById("hola1");
+        hola.push(getX(ele));
+        hola.push(getY(ele));
+        var div = document.createElement("div");
+        div.id = "id";
+        div.appendChild(document.createTextNode("Координаты нажатой кнопки равны: " + hola[0] + ";" + hola[1]));
+        document.body.appendChild(div);
+    }
+</script>
+<button style="z-index: 1; position: absolute; top: 5px; left: 5px" id = "hola1" onclick="hola();">Координаты</button>
+<button style="z-index: 0; position: absolute; top: 5px; left: 5px" id = "hola2" onclick="alert('Hola');">Перекрытие</button>
+</body>
+</html>

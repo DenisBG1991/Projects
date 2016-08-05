@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type = "text/css" href="StyleCSS.css">
+    <meta charset="UTF-8">
+    <title>Windows</title>
+</head>
+<body>
+<div class = "window" style = "left: 10px; top: 10px; z-index: 10;">
+    <div class = "titlebar">
+        Текстовое окно
+    </div>
+    <div class = "content">
+        1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>0<br>
+        1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>0<br>
+    </div>
+</div>
+<div class = "window" style="left: 75px; top: 110px; z-index: 20">
+    <div class = "titlebar">Еще одно окно</div>
+    <div class="content translucent" style="background-color: #d0d0d0; font-weight: bold;">
+        Это еще одно окно. Значение атрибута <tt>z-index</tt> этого окна заставляет его
+        расположиться поверх другого. За счет CSS-стилей содержимое этого окна
+        будет выглядеть полупрозрачным в браузерах, поддерживающих такую возможность.
+    </div>
+</div>
+</body>
+</html>
