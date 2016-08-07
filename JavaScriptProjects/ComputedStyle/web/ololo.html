@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ComputedStyle</title>
+</head>
+<body>
+<button onclick="ololo();">
+    Стиль
+</button>
+<p style="font-family: 'Adobe Devanagari',fantasy">
+    Очень плохая музыка!
+</p>
+<div id="urgent">
+    <h1>
+        Внимание!
+    </h1>Вэб сервер атакован!
+</div>
+<script>
+    function sty() {
+        var p = document.getElementsByTagName("p")[0];
+        var typeface = "";
+        typeface = window.getComputedStyle(p).fontFamily;
+        return typeface;
+    }
+    function ololo(){
+        alert(sty());
+    }
+    var e = document.getElementById("urgent");
+    e.style.border = "solid black 5px";
+    e.style.padding = "50px";
+    var colors = ["white", "yellow", "orange", "red", "green", "blue"];
+    var nextColor = 0;
+    setInterval(function(){
+        e.style.borderColor = colors[nextColor++%colors.length];
+    })
+</script>
+</body>
+</html>

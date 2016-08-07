@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="application/javascript" src="navigationbar.js"></script>
+    <meta charset="UTF-8">
+    <title>Navigation</title>
+</head>
+<body>
+
+    <!--
+        Форма с обработчиками событий,
+        которые вызывают функции определенные в файле navigation.js
+    -->
+
+    <form name="navbar" onsubmit="go(); return false;">
+        <input type="button" value="Назад" onclick="back();">
+        <input type="button" value="Вперед" onclick="forward();">
+        URL: <input type="text" name="url" value="" size="50" title="Enter URL address">
+        <input type="button" value="Перейти" onclick="go();">
+        <input type="button" value="Новое окно" onclick="displayInNewWindow();">
+    </form>
+
+</body>
+</html>
