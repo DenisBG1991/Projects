@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="css0.css" id = "css0">
+    <link rel="alternate stylesheet" type="text/css" href="css1.css" id = "css1" title="Крупный шрифт">
+    <link rel="alternate stylesheet" type="text/css" href="css2.css" id = "css2" title="Высокий контраст">
+    <style id = "css3" title="Sans Serif">
+        body {font-family: sans-serif;}
+    </style>
+    <script>
+        // Эта функция включает или выключает таблицу стилей с заданным атрибутом id.
+        // Она работает с элементами <link> и <style>.
+        function enableSS (sheetid, enabled) {
+            document.getElementById(sheetid).disabled = !enabled;
+        }
+    </script>
+    <meta charset="UTF-8">
+    <title>OnCss</title>
+</head>
+<body>
+<form>
+    <label>
+        <input type="checkbox" onclick="enableSS('css0', this.checked)" checked>
+    </label>Основная
+    <br><label>
+    <input type="checkbox" onclick="enableSS('css1', this.checked)" checked>
+    </label>Крупный шрифт
+    <br><label>
+    <input type="checkbox" onclick="enableSS('css2', this.checked)" checked>
+    </label>Высокий контраст
+    <br><label>
+    <input type="checkbox" onclick="enableSS('css3', this.checked)" checked>
+    </label>Sans Serif
+</form>
+</body>
+</html>
