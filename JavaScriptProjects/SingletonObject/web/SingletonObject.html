@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="application/javascript" src="SingletonObject.js"></script>
+    <script type="application/javascript" src="Assembly.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <title>SingletonObject</title>
+</head>
+<body>
+<script>
+    // Вначале инициализируем созданные объекты tegA и tegB (добавление этого объекта в мини-бызу объектов).
+    app.createObject(tegA);
+    app.createObject(tegB);
+
+    // Теперь непосредственно вызывем функцию addObject нашего Singleton-объекта для поиска
+    // только что добавленного JSON-объекта tagA.
+    app.addObject('/app.php?123', function(obj){
+        $(document).ready(function() {
+            $ ("body").append(obj);
+        });
+    });
+</script>
+</body>
+</html>

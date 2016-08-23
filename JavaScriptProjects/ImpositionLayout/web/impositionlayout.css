@@ -1,0 +1,40 @@
+#div1{
+    background: #ddd;
+    height: 100px;
+    width: 100%;
+    border: solid black 1px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+#div2{
+    background: #ddd;
+    height: 1500px;
+    width: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: solid black 1px;
+    position: absolute;
+    top: 200px;
+}
+
+#div3{
+    background: #ddd;
+    height: 1500px;
+    width: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: solid black 1px;
+    position: absolute;
+    top: 1800px;
+}
+
+#div4{
+    background: #ddd;
+    height: 1500px;
+    width: 100%;
+    border: solid black 1px;
+    position: absolute;
+    top: 3400px;
+}

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="application/javascript" src="tooltip.js"></script>
+    <meta charset="UTF-8">
+    <title>Tooltip</title>
+</head>
+<body>
+<script>
+    Tooltip.tooltip = new Tooltip();
+</script>
+<a href="https://www.youtube.com/" tooltip = "good Java" onmouseover="Tooltip.tooltip.schedule(this, event)">GOOD JAVA</a>
+</body>
+</html>
