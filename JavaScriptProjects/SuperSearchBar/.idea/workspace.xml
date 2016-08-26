@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="767f6470-a5e0-490f-9234-356a7807291b" name="Default" comment="" />
-    <ignored path="SingletonObject.iws" />
+    <list default="true" id="4298b6f5-eef3-4ad5-b84f-874932d6953d" name="Default" comment="" />
+    <ignored path="SuperSearchBar.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -19,50 +19,54 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="SingletonObject" />
+    <favorites_list name="SuperSearchBar" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SingletonObject.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/SingletonObject.js">
+      <file leaf-file-name="SuperSearchBar.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5025818">
-              <caret line="59" column="22" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
-              <folding>
-                <element signature="n#!!block;n#app#0" expanded="false" />
-                <element signature="e#3138#3179#0" expanded="false" />
-                <element signature="e#3217#3692#0" expanded="false" />
-                <element signature="e#3751#5394#0" expanded="false" />
-                <element signature="e#5437#5895#0" expanded="false" />
-                <element signature="e#6288#7023#0" expanded="false" />
-                <element signature="e#7069#7916#0" expanded="false" />
-                <element signature="e#7960#8669#0" expanded="false" />
-                <element signature="e#8726#8793#0" expanded="false" />
-                <element signature="e#8870#8993#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SingletonObject.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/SingletonObject.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.076923">
-              <caret line="24" column="73" selection-start-line="24" selection-start-column="73" selection-end-line="24" selection-end-column="73" />
-              <folding>
-                <element signature="e#770#864#0" expanded="false" />
-                <element signature="e#1087#1181#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Assembly.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/Assembly.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+            <state vertical-scroll-proportion="-29.423077">
+              <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SuperSearchBar.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.9230769">
+              <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SuperSearchBar.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.32692307">
+              <caret line="33" column="54" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
+              <folding>
+                <element signature="n#!!block;n#mainer#0" expanded="false" />
+                <element signature="n#!!block;n#main#0" expanded="false" />
+                <element signature="n#!!block;n#addHandler#0" expanded="false" />
+                <element signature="e#541#653#0" expanded="false" />
+                <element signature="n#!!block;n#removeHandler#0" expanded="false" />
+                <element signature="n#!!block;n#entry#0" expanded="false" />
+                <element signature="n#!!block;n#res#0" expanded="false" />
+                <element signature="n#!!block;n#afterInput#0" expanded="false" />
+                <element signature="e#3421#3600#0" expanded="false" />
+                <element signature="e#3854#4561#0" expanded="false" />
+                <element signature="n#!!block;n#SendingRequest#0" expanded="false" />
+                <element signature="e#5681#6020#0" expanded="false" />
+                <element signature="e#6156#6223#0" expanded="false" />
+                <element signature="e#6309#7051#0" expanded="false" />
+                <element signature="e#7054#7152#0" expanded="false" />
+                <element signature="e#7242#7421#0" expanded="false" />
+                <element signature="n#!!block;n#unload#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,8 +76,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -85,12 +89,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/WEB-INF/Assembly.js" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/SingletonObject.html" />
-        <option value="$PROJECT_DIR$/web/Assembly.css" />
-        <option value="$PROJECT_DIR$/web/Assembly.js" />
-        <option value="$PROJECT_DIR$/web/SingletonObject.js" />
-        <option value="$PROJECT_DIR$/web/SingletonObject.html" />
+        <option value="$PROJECT_DIR$/web/SuperSearchBar.js" />
+        <option value="$PROJECT_DIR$/web/SuperSearchBar.html" />
+        <option value="$PROJECT_DIR$/web/SuperSearchBar.css" />
       </list>
     </option>
   </component>
@@ -100,10 +101,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="9" />
-    <option name="y" value="15" />
-    <option name="width" value="1288" />
-    <option name="height" value="741" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1320" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -131,31 +132,33 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SingletonObject" />
+              <option name="myItemId" value="SuperSearchBar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SingletonObject" />
+              <option name="myItemId" value="SuperSearchBar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SingletonObject" />
+              <option name="myItemId" value="SuperSearchBar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SingletonObject" />
+              <option name="myItemId" value="SuperSearchBar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SingletonObject" />
+              <option name="myItemId" value="SuperSearchBar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -165,20 +168,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ImpositionLayout" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Денис\IdeaProjects\SingletonObject\web" />
-    </key>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AnimateCSS" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -497,7 +493,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="SingletonObject" />
+      <module name="SuperSearchBar" />
       <envs />
       <method />
     </configuration>
@@ -610,41 +606,54 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="767f6470-a5e0-490f-9234-356a7807291b" name="Default" comment="" />
-      <created>1471784761976</created>
+      <changelist id="4298b6f5-eef3-4ad5-b84f-874932d6953d" name="Default" comment="" />
+      <created>1472053837222</created>
       <option name="number" value="Default" />
-      <updated>1471784761976</updated>
-      <workItem from="1471784770184" duration="1176000" />
-      <workItem from="1471786020929" duration="1015000" />
-      <workItem from="1471792479824" duration="1383000" />
-      <workItem from="1471794441950" duration="1372000" />
-      <workItem from="1471809574353" duration="1317000" />
-      <workItem from="1471811334377" duration="2038000" />
-      <workItem from="1471813408357" duration="1799000" />
-      <workItem from="1471867634864" duration="1780000" />
-      <workItem from="1471869455954" duration="1793000" />
-      <workItem from="1471872050810" duration="2702000" />
-      <workItem from="1471874953461" duration="2902000" />
-      <workItem from="1471877916717" duration="2165000" />
-      <workItem from="1471880112424" duration="1870000" />
-      <workItem from="1471882035194" duration="2076000" />
-      <workItem from="1471884162816" duration="2204000" />
-      <workItem from="1471944592363" duration="1882000" />
-      <workItem from="1471946522270" duration="1941000" />
-      <workItem from="1471952287715" duration="735000" />
-      <workItem from="1471963378741" duration="2032000" />
-      <workItem from="1471965429693" duration="1794000" />
-      <workItem from="1471967243770" duration="1522000" />
-      <workItem from="1471969084271" duration="1876000" />
-      <workItem from="1471970978664" duration="1430000" />
+      <updated>1472053837222</updated>
+      <workItem from="1472053842024" duration="467000" />
+      <workItem from="1472057192684" duration="1314000" />
+      <workItem from="1472058981826" duration="1728000" />
+      <workItem from="1472060860462" duration="2071000" />
+      <workItem from="1472062956150" duration="1803000" />
+      <workItem from="1472064777393" duration="1953000" />
+      <workItem from="1472067035380" duration="1871000" />
+      <workItem from="1472068926400" duration="1887000" />
+      <workItem from="1472072265129" duration="1805000" />
+      <workItem from="1472074550706" duration="1983000" />
+      <workItem from="1472076551378" duration="1199000" />
+      <workItem from="1472115848736" duration="1781000" />
+      <workItem from="1472117661268" duration="1771000" />
+      <workItem from="1472119474110" duration="1798000" />
+      <workItem from="1472121292100" duration="2032000" />
+      <workItem from="1472123341643" duration="1789000" />
+      <workItem from="1472125226316" duration="1856000" />
+      <workItem from="1472129704941" duration="1138000" />
+      <workItem from="1472131480559" duration="1500000" />
+      <workItem from="1472133363713" duration="1810000" />
+      <workItem from="1472136342421" duration="1794000" />
+      <workItem from="1472138290054" duration="1979000" />
+      <workItem from="1472142508192" duration="1931000" />
+      <workItem from="1472144471406" duration="1076000" />
+      <workItem from="1472146508692" duration="1804000" />
+      <workItem from="1472148331876" duration="1812000" />
+      <workItem from="1472150161729" duration="1822000" />
+      <workItem from="1472152003552" duration="1872000" />
+      <workItem from="1472153894163" duration="2154000" />
+      <workItem from="1472157862647" duration="1844000" />
+      <workItem from="1472159753457" duration="2044000" />
+      <workItem from="1472161816776" duration="1802000" />
+      <workItem from="1472163635240" duration="1829000" />
+      <workItem from="1472165481715" duration="1820000" />
+      <workItem from="1472167320335" duration="292000" />
+      <workItem from="1472189565009" duration="933000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40804000" />
+    <option name="totallyTimeSpent" value="60364000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="9" y="15" width="1288" height="741" extended-state="0" />
+    <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -656,7 +665,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24920635" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -687,7 +696,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24920635" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -712,80 +721,38 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/SingletonObject.js">
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!block;n#app#0" expanded="false" />
-            <element signature="e#3138#3179#0" expanded="false" />
-            <element signature="e#3217#3692#0" expanded="false" />
-            <element signature="e#3751#5394#0" expanded="false" />
-            <element signature="e#5437#5895#0" expanded="false" />
-            <element signature="e#6288#7023#0" expanded="false" />
-            <element signature="e#7069#7916#0" expanded="false" />
-            <element signature="e#7960#8669#0" expanded="false" />
-            <element signature="e#8726#8793#0" expanded="false" />
-            <element signature="e#8870#8993#0" expanded="false" />
+            <element signature="n#!!block;n#mainer#0" expanded="false" />
+            <element signature="n#!!block;n#main#0" expanded="false" />
+            <element signature="n#!!block;n#addHandler#0" expanded="false" />
+            <element signature="e#541#653#0" expanded="false" />
+            <element signature="n#!!block;n#removeHandler#0" expanded="false" />
+            <element signature="n#!!block;n#entry#0" expanded="false" />
+            <element signature="n#!!block;n#res#0" expanded="false" />
+            <element signature="n#!!block;n#afterInput#0" expanded="false" />
+            <element signature="e#3421#3600#0" expanded="false" />
+            <element signature="e#3854#4561#0" expanded="false" />
+            <element signature="n#!!block;n#SendingRequest#0" expanded="false" />
+            <element signature="e#5681#6020#0" expanded="false" />
+            <element signature="e#6156#6223#0" expanded="false" />
+            <element signature="e#6309#7051#0" expanded="false" />
+            <element signature="e#7054#7152#0" expanded="false" />
+            <element signature="e#7242#7421#0" expanded="false" />
+            <element signature="n#!!block;n#unload#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/SingletonObject.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-          <folding>
-            <element signature="e#770#864#0" expanded="false" />
-            <element signature="e#1087#1181#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Assembly.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/SingletonObject.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="203" column="2" selection-start-line="203" selection-start-column="2" selection-end-line="203" selection-end-column="2" />
-          <folding>
-            <element signature="n#!!block;n#app#0" expanded="false" />
-            <element signature="e#3138#3179#0" expanded="false" />
-            <element signature="e#3217#3692#0" expanded="false" />
-            <element signature="e#3751#5394#0" expanded="false" />
-            <element signature="e#5437#5895#0" expanded="false" />
-            <element signature="e#6288#7023#0" expanded="false" />
-            <element signature="e#7069#7916#0" expanded="false" />
-            <element signature="e#7960#8669#0" expanded="false" />
-            <element signature="e#8726#8793#0" expanded="false" />
-            <element signature="e#8870#8993#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/SingletonObject.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="e#770#864#0" expanded="false" />
-            <element signature="e#1087#1181#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Assembly.js">
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -793,368 +760,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/SingletonObject.js">
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#app#0" expanded="false" />
-            <element signature="e#3138#3179#0" expanded="false" />
-            <element signature="e#3217#3692#0" expanded="false" />
-            <element signature="e#3751#5394#0" expanded="false" />
-            <element signature="e#5437#5895#0" expanded="false" />
-            <element signature="e#6288#7023#0" expanded="false" />
-            <element signature="e#7069#7916#0" expanded="false" />
-            <element signature="e#7960#8669#0" expanded="false" />
-            <element signature="e#8726#8793#0" expanded="false" />
-            <element signature="e#8870#8993#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/SingletonObject.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-          <folding>
-            <element signature="e#770#864#0" expanded="false" />
-            <element signature="e#1087#1181#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Assembly.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/SingletonObject.js">
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#app#0" expanded="false" />
-            <element signature="e#3138#3179#0" expanded="false" />
-            <element signature="e#3217#3692#0" expanded="false" />
-            <element signature="e#3751#5394#0" expanded="false" />
-            <element signature="e#5437#5895#0" expanded="false" />
-            <element signature="e#6288#7023#0" expanded="false" />
-            <element signature="e#7069#7916#0" expanded="false" />
-            <element signature="e#7960#8669#0" expanded="false" />
-            <element signature="e#8726#8793#0" expanded="false" />
-            <element signature="e#8870#8993#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/SingletonObject.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-          <folding>
-            <element signature="e#770#864#0" expanded="false" />
-            <element signature="e#1087#1181#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Assembly.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <caret line="58" column="23" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/SingletonObject.js">
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!block;n#app#0" expanded="false" />
-            <element signature="e#3138#3179#0" expanded="false" />
-            <element signature="e#3217#3692#0" expanded="false" />
-            <element signature="e#3751#5394#0" expanded="false" />
-            <element signature="e#5437#5895#0" expanded="false" />
-            <element signature="e#6288#7023#0" expanded="false" />
-            <element signature="e#7069#7916#0" expanded="false" />
-            <element signature="e#7960#8669#0" expanded="false" />
-            <element signature="e#8726#8793#0" expanded="false" />
-            <element signature="e#8870#8993#0" expanded="false" />
+            <element signature="n#!!block;n#mainer#0" expanded="false" />
+            <element signature="n#!!block;n#main#0" expanded="false" />
+            <element signature="n#!!block;n#addHandler#0" expanded="false" />
+            <element signature="e#541#653#0" expanded="false" />
+            <element signature="n#!!block;n#removeHandler#0" expanded="false" />
+            <element signature="n#!!block;n#entry#0" expanded="false" />
+            <element signature="n#!!block;n#res#0" expanded="false" />
+            <element signature="n#!!block;n#afterInput#0" expanded="false" />
+            <element signature="e#3421#3600#0" expanded="false" />
+            <element signature="e#3854#4561#0" expanded="false" />
+            <element signature="n#!!block;n#SendingRequest#0" expanded="false" />
+            <element signature="e#5681#6020#0" expanded="false" />
+            <element signature="e#6156#6223#0" expanded="false" />
+            <element signature="e#6309#7051#0" expanded="false" />
+            <element signature="e#7054#7152#0" expanded="false" />
+            <element signature="e#7242#7421#0" expanded="false" />
+            <element signature="n#!!block;n#unload#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/SingletonObject.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
-          <folding>
-            <element signature="e#770#864#0" expanded="false" />
-            <element signature="e#1087#1181#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Assembly.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/SingletonObject.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#app#0" expanded="false" />
-            <element signature="e#3138#3179#0" expanded="false" />
-            <element signature="e#3217#3692#0" expanded="false" />
-            <element signature="e#3751#5394#0" expanded="false" />
-            <element signature="e#5437#5895#0" expanded="false" />
-            <element signature="e#6288#7023#0" expanded="false" />
-            <element signature="e#7069#7916#0" expanded="false" />
-            <element signature="e#7960#8669#0" expanded="false" />
-            <element signature="e#8726#8793#0" expanded="false" />
-            <element signature="e#8870#8993#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/SingletonObject.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#770#864#0" expanded="false" />
-            <element signature="e#1087#1181#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Assembly.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/SingletonObject.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="81" selection-start-line="58" selection-start-column="81" selection-end-line="58" selection-end-column="81" />
-          <folding>
-            <element signature="n#!!block;n#app#0" expanded="false" />
-            <element signature="e#3138#3179#0" expanded="false" />
-            <element signature="e#3217#3692#0" expanded="false" />
-            <element signature="e#3751#5394#0" expanded="false" />
-            <element signature="e#5437#5895#0" expanded="false" />
-            <element signature="e#6288#7023#0" expanded="false" />
-            <element signature="e#7069#7916#0" expanded="false" />
-            <element signature="e#7960#8669#0" expanded="false" />
-            <element signature="e#8726#8793#0" expanded="false" />
-            <element signature="e#8870#8993#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/SingletonObject.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#770#864#0" expanded="false" />
-            <element signature="e#1087#1181#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Assembly.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/SingletonObject.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#app#0" expanded="false" />
-            <element signature="e#3138#3179#0" expanded="false" />
-            <element signature="e#3217#3692#0" expanded="false" />
-            <element signature="e#3751#5394#0" expanded="false" />
-            <element signature="e#5437#5895#0" expanded="false" />
-            <element signature="e#6288#7023#0" expanded="false" />
-            <element signature="e#7069#7916#0" expanded="false" />
-            <element signature="e#7960#8669#0" expanded="false" />
-            <element signature="e#8726#8793#0" expanded="false" />
-            <element signature="e#8870#8993#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/SingletonObject.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-          <folding>
-            <element signature="e#770#864#0" expanded="false" />
-            <element signature="e#1087#1181#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Assembly.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/SingletonObject.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#app#0" expanded="false" />
-            <element signature="e#3138#3179#0" expanded="false" />
-            <element signature="e#3217#3692#0" expanded="false" />
-            <element signature="e#3751#5394#0" expanded="false" />
-            <element signature="e#5437#5895#0" expanded="false" />
-            <element signature="e#6288#7023#0" expanded="false" />
-            <element signature="e#7069#7916#0" expanded="false" />
-            <element signature="e#7960#8669#0" expanded="false" />
-            <element signature="e#8726#8793#0" expanded="false" />
-            <element signature="e#8870#8993#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/SingletonObject.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-          <folding>
-            <element signature="e#770#864#0" expanded="false" />
-            <element signature="e#1087#1181#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Assembly.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/SingletonObject.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#app#0" expanded="false" />
-            <element signature="e#3138#3179#0" expanded="false" />
-            <element signature="e#3217#3692#0" expanded="false" />
-            <element signature="e#3751#5394#0" expanded="false" />
-            <element signature="e#5437#5895#0" expanded="false" />
-            <element signature="e#6288#7023#0" expanded="false" />
-            <element signature="e#7069#7916#0" expanded="false" />
-            <element signature="e#7960#8669#0" expanded="false" />
-            <element signature="e#8726#8793#0" expanded="false" />
-            <element signature="e#8870#8993#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/SingletonObject.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#app#0" expanded="false" />
-            <element signature="e#3138#3179#0" expanded="false" />
-            <element signature="e#3217#3692#0" expanded="false" />
-            <element signature="e#3751#5394#0" expanded="false" />
-            <element signature="e#5437#5895#0" expanded="false" />
-            <element signature="e#6288#7023#0" expanded="false" />
-            <element signature="e#7069#7916#0" expanded="false" />
-            <element signature="e#7960#8669#0" expanded="false" />
-            <element signature="e#8726#8793#0" expanded="false" />
-            <element signature="e#8870#8993#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/SingletonObject.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#app#0" expanded="false" />
-            <element signature="e#3138#3179#0" expanded="false" />
-            <element signature="e#3217#3692#0" expanded="false" />
-            <element signature="e#3751#5394#0" expanded="false" />
-            <element signature="e#5437#5895#0" expanded="false" />
-            <element signature="e#6288#7023#0" expanded="false" />
-            <element signature="e#7069#7916#0" expanded="false" />
-            <element signature="e#7960#8669#0" expanded="false" />
-            <element signature="e#8726#8793#0" expanded="false" />
-            <element signature="e#8870#8993#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/SingletonObject.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding>
-            <element signature="e#770#864#0" expanded="false" />
-            <element signature="e#1087#1181#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Assembly.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/SingletonObject.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#app#0" expanded="false" />
-            <element signature="e#3138#3179#0" expanded="false" />
-            <element signature="e#3217#3692#0" expanded="false" />
-            <element signature="e#3751#5394#0" expanded="false" />
-            <element signature="e#5437#5895#0" expanded="false" />
-            <element signature="e#6288#7023#0" expanded="false" />
-            <element signature="e#7069#7916#0" expanded="false" />
-            <element signature="e#7960#8669#0" expanded="false" />
-            <element signature="e#8726#8793#0" expanded="false" />
-            <element signature="e#8870#8993#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Assembly.js">
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1162,97 +810,542 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/SingletonObject.js">
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
-          <folding>
-            <element signature="n#!!block;n#app#0" expanded="false" />
-            <element signature="e#3138#3179#0" expanded="false" />
-            <element signature="e#3217#3692#0" expanded="false" />
-            <element signature="e#3751#5394#0" expanded="false" />
-            <element signature="e#5437#5895#0" expanded="false" />
-            <element signature="e#6288#7023#0" expanded="false" />
-            <element signature="e#7069#7916#0" expanded="false" />
-            <element signature="e#7960#8669#0" expanded="false" />
-            <element signature="e#8726#8793#0" expanded="false" />
-            <element signature="e#8870#8993#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/SingletonObject.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#app#0" expanded="false" />
-            <element signature="e#3138#3179#0" expanded="false" />
-            <element signature="e#3217#3692#0" expanded="false" />
-            <element signature="e#3751#5394#0" expanded="false" />
-            <element signature="e#5437#5895#0" expanded="false" />
-            <element signature="e#6288#7023#0" expanded="false" />
-            <element signature="e#7069#7916#0" expanded="false" />
-            <element signature="e#7960#8669#0" expanded="false" />
-            <element signature="e#8726#8793#0" expanded="false" />
-            <element signature="e#8870#8993#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/SingletonObject.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-          <folding>
-            <element signature="n#!!block;n#app#0" expanded="false" />
-            <element signature="e#3138#3179#0" expanded="false" />
-            <element signature="e#3217#3692#0" expanded="false" />
-            <element signature="e#3751#5394#0" expanded="false" />
-            <element signature="e#5437#5895#0" expanded="false" />
-            <element signature="e#6288#7023#0" expanded="false" />
-            <element signature="e#7069#7916#0" expanded="false" />
-            <element signature="e#7960#8669#0" expanded="false" />
-            <element signature="e#8726#8793#0" expanded="false" />
-            <element signature="e#8870#8993#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/Assembly.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+          <caret line="61" column="13" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/SingletonObject.html">
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.076923">
-          <caret line="24" column="73" selection-start-line="24" selection-start-column="73" selection-end-line="24" selection-end-column="73" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="174" column="1" selection-start-line="174" selection-start-column="1" selection-end-line="174" selection-end-column="1" />
           <folding>
-            <element signature="e#770#864#0" expanded="false" />
-            <element signature="e#1087#1181#0" expanded="false" />
+            <element signature="n#!!block;n#mainer#0" expanded="false" />
+            <element signature="n#!!block;n#main#0" expanded="false" />
+            <element signature="n#!!block;n#addHandler#0" expanded="false" />
+            <element signature="e#541#653#0" expanded="false" />
+            <element signature="n#!!block;n#removeHandler#0" expanded="false" />
+            <element signature="n#!!block;n#entry#0" expanded="false" />
+            <element signature="n#!!block;n#res#0" expanded="false" />
+            <element signature="n#!!block;n#afterInput#0" expanded="false" />
+            <element signature="e#3421#3600#0" expanded="false" />
+            <element signature="e#3854#4561#0" expanded="false" />
+            <element signature="n#!!block;n#SendingRequest#0" expanded="false" />
+            <element signature="e#5681#6020#0" expanded="false" />
+            <element signature="e#6156#6223#0" expanded="false" />
+            <element signature="e#6309#7051#0" expanded="false" />
+            <element signature="e#7054#7152#0" expanded="false" />
+            <element signature="e#7242#7421#0" expanded="false" />
+            <element signature="n#!!block;n#unload#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/SingletonObject.js">
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5025818">
-          <caret line="59" column="22" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="137" column="9" selection-start-line="137" selection-start-column="4" selection-end-line="137" selection-end-column="9" />
           <folding>
-            <element signature="n#!!block;n#app#0" expanded="false" />
-            <element signature="e#3138#3179#0" expanded="false" />
-            <element signature="e#3217#3692#0" expanded="false" />
-            <element signature="e#3751#5394#0" expanded="false" />
-            <element signature="e#5437#5895#0" expanded="false" />
-            <element signature="e#6288#7023#0" expanded="false" />
-            <element signature="e#7069#7916#0" expanded="false" />
-            <element signature="e#7960#8669#0" expanded="false" />
-            <element signature="e#8726#8793#0" expanded="false" />
-            <element signature="e#8870#8993#0" expanded="false" />
+            <element signature="n#!!block;n#mainer#0" expanded="false" />
+            <element signature="n#!!block;n#main#0" expanded="false" />
+            <element signature="n#!!block;n#addHandler#0" expanded="false" />
+            <element signature="e#541#653#0" expanded="false" />
+            <element signature="n#!!block;n#removeHandler#0" expanded="false" />
+            <element signature="n#!!block;n#entry#0" expanded="false" />
+            <element signature="n#!!block;n#res#0" expanded="false" />
+            <element signature="n#!!block;n#afterInput#0" expanded="false" />
+            <element signature="e#3421#3600#0" expanded="false" />
+            <element signature="e#3854#4561#0" expanded="false" />
+            <element signature="n#!!block;n#SendingRequest#0" expanded="false" />
+            <element signature="e#5681#6020#0" expanded="false" />
+            <element signature="e#6156#6223#0" expanded="false" />
+            <element signature="e#6309#7051#0" expanded="false" />
+            <element signature="e#7054#7152#0" expanded="false" />
+            <element signature="e#7242#7421#0" expanded="false" />
+            <element signature="n#!!block;n#unload#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="125" column="16" selection-start-line="125" selection-start-column="16" selection-end-line="125" selection-end-column="16" />
+          <folding>
+            <element signature="n#!!block;n#mainer#0" expanded="false" />
+            <element signature="n#!!block;n#main#0" expanded="false" />
+            <element signature="n#!!block;n#addHandler#0" expanded="false" />
+            <element signature="e#541#653#0" expanded="false" />
+            <element signature="n#!!block;n#removeHandler#0" expanded="false" />
+            <element signature="n#!!block;n#entry#0" expanded="false" />
+            <element signature="n#!!block;n#res#0" expanded="false" />
+            <element signature="n#!!block;n#afterInput#0" expanded="false" />
+            <element signature="e#3421#3600#0" expanded="false" />
+            <element signature="e#3854#4561#0" expanded="false" />
+            <element signature="n#!!block;n#SendingRequest#0" expanded="false" />
+            <element signature="e#5681#6020#0" expanded="false" />
+            <element signature="e#6156#6223#0" expanded="false" />
+            <element signature="e#6309#7051#0" expanded="false" />
+            <element signature="e#7054#7152#0" expanded="false" />
+            <element signature="e#7242#7421#0" expanded="false" />
+            <element signature="n#!!block;n#unload#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="90" selection-start-line="13" selection-start-column="90" selection-end-line="13" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#mainer#0" expanded="false" />
+            <element signature="n#!!block;n#main#0" expanded="false" />
+            <element signature="n#!!block;n#addHandler#0" expanded="false" />
+            <element signature="e#541#653#0" expanded="false" />
+            <element signature="n#!!block;n#removeHandler#0" expanded="false" />
+            <element signature="n#!!block;n#entry#0" expanded="false" />
+            <element signature="n#!!block;n#res#0" expanded="false" />
+            <element signature="n#!!block;n#afterInput#0" expanded="false" />
+            <element signature="e#3421#3600#0" expanded="false" />
+            <element signature="e#3854#4561#0" expanded="false" />
+            <element signature="n#!!block;n#SendingRequest#0" expanded="false" />
+            <element signature="e#5681#6020#0" expanded="false" />
+            <element signature="e#6156#6223#0" expanded="false" />
+            <element signature="e#6309#7051#0" expanded="false" />
+            <element signature="e#7054#7152#0" expanded="false" />
+            <element signature="e#7242#7421#0" expanded="false" />
+            <element signature="n#!!block;n#unload#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!block;n#mainer#0" expanded="false" />
+            <element signature="n#!!block;n#main#0" expanded="false" />
+            <element signature="n#!!block;n#addHandler#0" expanded="false" />
+            <element signature="e#541#653#0" expanded="false" />
+            <element signature="n#!!block;n#removeHandler#0" expanded="false" />
+            <element signature="n#!!block;n#entry#0" expanded="false" />
+            <element signature="n#!!block;n#res#0" expanded="false" />
+            <element signature="n#!!block;n#afterInput#0" expanded="false" />
+            <element signature="e#3421#3600#0" expanded="false" />
+            <element signature="e#3854#4561#0" expanded="false" />
+            <element signature="n#!!block;n#SendingRequest#0" expanded="false" />
+            <element signature="e#5681#6020#0" expanded="false" />
+            <element signature="e#6156#6223#0" expanded="false" />
+            <element signature="e#6309#7051#0" expanded="false" />
+            <element signature="e#7054#7152#0" expanded="false" />
+            <element signature="e#7242#7421#0" expanded="false" />
+            <element signature="n#!!block;n#unload#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="61" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#mainer#0" expanded="false" />
+            <element signature="n#!!block;n#main#0" expanded="false" />
+            <element signature="n#!!block;n#addHandler#0" expanded="false" />
+            <element signature="e#541#653#0" expanded="false" />
+            <element signature="n#!!block;n#removeHandler#0" expanded="false" />
+            <element signature="n#!!block;n#entry#0" expanded="false" />
+            <element signature="n#!!block;n#res#0" expanded="false" />
+            <element signature="n#!!block;n#afterInput#0" expanded="false" />
+            <element signature="e#3421#3600#0" expanded="false" />
+            <element signature="e#3854#4561#0" expanded="false" />
+            <element signature="n#!!block;n#SendingRequest#0" expanded="false" />
+            <element signature="e#5681#6020#0" expanded="false" />
+            <element signature="e#6156#6223#0" expanded="false" />
+            <element signature="e#6309#7051#0" expanded="false" />
+            <element signature="e#7054#7152#0" expanded="false" />
+            <element signature="e#7242#7421#0" expanded="false" />
+            <element signature="n#!!block;n#unload#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="22" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+          <folding>
+            <element signature="n#!!block;n#mainer#0" expanded="false" />
+            <element signature="n#!!block;n#main#0" expanded="false" />
+            <element signature="n#!!block;n#addHandler#0" expanded="false" />
+            <element signature="e#541#653#0" expanded="false" />
+            <element signature="n#!!block;n#removeHandler#0" expanded="false" />
+            <element signature="n#!!block;n#entry#0" expanded="false" />
+            <element signature="n#!!block;n#res#0" expanded="false" />
+            <element signature="n#!!block;n#afterInput#0" expanded="false" />
+            <element signature="e#3421#3600#0" expanded="false" />
+            <element signature="e#3854#4561#0" expanded="false" />
+            <element signature="n#!!block;n#SendingRequest#0" expanded="false" />
+            <element signature="e#5681#6020#0" expanded="false" />
+            <element signature="e#6156#6223#0" expanded="false" />
+            <element signature="e#6309#7051#0" expanded="false" />
+            <element signature="e#7054#7152#0" expanded="false" />
+            <element signature="e#7242#7421#0" expanded="false" />
+            <element signature="n#!!block;n#unload#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+          <folding>
+            <element signature="n#!!block;n#mainer#0" expanded="false" />
+            <element signature="n#!!block;n#main#0" expanded="false" />
+            <element signature="n#!!block;n#addHandler#0" expanded="false" />
+            <element signature="e#541#653#0" expanded="false" />
+            <element signature="n#!!block;n#removeHandler#0" expanded="false" />
+            <element signature="n#!!block;n#entry#0" expanded="false" />
+            <element signature="n#!!block;n#res#0" expanded="false" />
+            <element signature="n#!!block;n#afterInput#0" expanded="false" />
+            <element signature="e#3421#3600#0" expanded="false" />
+            <element signature="e#3854#4561#0" expanded="false" />
+            <element signature="n#!!block;n#SendingRequest#0" expanded="false" />
+            <element signature="e#5681#6020#0" expanded="false" />
+            <element signature="e#6156#6223#0" expanded="false" />
+            <element signature="e#6309#7051#0" expanded="false" />
+            <element signature="e#7054#7152#0" expanded="false" />
+            <element signature="e#7242#7421#0" expanded="false" />
+            <element signature="n#!!block;n#unload#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+          <folding>
+            <element signature="n#!!block;n#mainer#0" expanded="false" />
+            <element signature="n#!!block;n#main#0" expanded="false" />
+            <element signature="n#!!block;n#addHandler#0" expanded="false" />
+            <element signature="e#541#653#0" expanded="false" />
+            <element signature="n#!!block;n#removeHandler#0" expanded="false" />
+            <element signature="n#!!block;n#entry#0" expanded="false" />
+            <element signature="n#!!block;n#res#0" expanded="false" />
+            <element signature="n#!!block;n#afterInput#0" expanded="false" />
+            <element signature="e#3421#3600#0" expanded="false" />
+            <element signature="e#3854#4561#0" expanded="false" />
+            <element signature="n#!!block;n#SendingRequest#0" expanded="false" />
+            <element signature="e#5681#6020#0" expanded="false" />
+            <element signature="e#6156#6223#0" expanded="false" />
+            <element signature="e#6309#7051#0" expanded="false" />
+            <element signature="e#7054#7152#0" expanded="false" />
+            <element signature="e#7242#7421#0" expanded="false" />
+            <element signature="n#!!block;n#unload#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9230769">
+          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-29.423077">
+          <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/SuperSearchBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32692307">
+          <caret line="33" column="54" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
+          <folding>
+            <element signature="n#!!block;n#mainer#0" expanded="false" />
+            <element signature="n#!!block;n#main#0" expanded="false" />
+            <element signature="n#!!block;n#addHandler#0" expanded="false" />
+            <element signature="e#541#653#0" expanded="false" />
+            <element signature="n#!!block;n#removeHandler#0" expanded="false" />
+            <element signature="n#!!block;n#entry#0" expanded="false" />
+            <element signature="n#!!block;n#res#0" expanded="false" />
+            <element signature="n#!!block;n#afterInput#0" expanded="false" />
+            <element signature="e#3421#3600#0" expanded="false" />
+            <element signature="e#3854#4561#0" expanded="false" />
+            <element signature="n#!!block;n#SendingRequest#0" expanded="false" />
+            <element signature="e#5681#6020#0" expanded="false" />
+            <element signature="e#6156#6223#0" expanded="false" />
+            <element signature="e#6309#7051#0" expanded="false" />
+            <element signature="e#7054#7152#0" expanded="false" />
+            <element signature="e#7242#7421#0" expanded="false" />
+            <element signature="n#!!block;n#unload#0" expanded="false" />
           </folding>
         </state>
       </provider>

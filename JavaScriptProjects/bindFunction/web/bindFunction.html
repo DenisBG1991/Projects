@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BindFunction</title>
+</head>
+<body>
+<script>
+    /**
+     * Метод bind() используется преимущественно для того, чтобы вызвать функцию с явным указанием значения
+     * this. Другими словами, bind() позволяет нам указать, ссылка на какой объект будет значением this, когда
+     * функция будет вызвана, и вызвать эту функцию. Поскольку метод bind() является частью стандарта ES5,
+     * он не работает в версии ES3 и более ранней. Данная функция осуществляет реализацию функции bind() и
+     * является неким подобием функции, предложенной Дугласом Крокфордом.
+     *
+     * Она может принимать сколько угодно аргументов (которые должны следовать после method и context).
+     * Затем она отделяет эти дополнительные параметры от двух основных и организует из них массив (
+     * его options). В итоге она возвращает функцию (как раз ту самую bind()), которая вызывает переданный первым
+     * аргументом метод method для объекта context c массивом параметров options.
+     */
+    // Тело функкции bind():
+    function bind (method, context){
+        var args = Array.prototype.slice.call(arguments, 2);
+        console.log(args);
+        return function (){
+            var a = args.concat(Array.prototype.slice.call(arguments, 0));
+            console.log(a);
+            return method.apply(context, a);
+        }
+    }
+
+    // Объект, на который будет осуществлено явное указание:
+    var contexts = { elephant: "Jora",
+                     whale: "Timon"
+    };
+
+    // Метод который будет вызываться:
+    function returnNames (param) {
+        var other = "";
+        if (param) {
+            var len = param.length;
+            for (var i = 0; i < len; i++){
+                other = other + " и " + param[i];
+            }
+        }
+        return this.elephant + " и " + this.whale + other;
+    }
+
+    // Дополнительный параметр:
+    var names = ["Poppy", "Teemo"];
+
+    // Пример использования данной переопределенной функции:
+    var bound = bind(returnNames, contexts, names);
+    alert(bound());
+</script>
+</body>
+</html>

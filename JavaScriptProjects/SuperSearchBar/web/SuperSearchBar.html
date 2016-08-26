@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="application/javascript" src="SuperSearchBar.js"></script>
+    <link rel="stylesheet" href="SuperSearchBar.css">
+    <meta charset="UTF-8">
+    <title>Super Search Bar</title>
+</head>
+<!-- Для того чтобы создать несколько Суперпоисковых Строк достаточно просто
+добавть идентичный первому блок с заменой везде цифры 1 на 2,3,...(ниже приведен
+подобный пример). И добавить каждые экземпляры в каскадную таблицу css.-->
+<body onload="mainer('1','2')">
+
+<!-- Первая Суперпоисковая Строка -->
+<div id="Bar1">
+<form id="forma1">
+    <label for="input1"></label><input id="input1" name="input1" type="url" placeholder="Input any text...">
+    <input id="reset1" type="button" value="&#215" onclick="res('1')">
+    <input id="search1" type="button" value="Search" disabled onclick="setTimeout(SendingRequest('1'),250);">
+    <div id="hint1">
+        <a id="PhraseOverview1" href=""></a>
+        <a id="DomainOverview1" href=""></a>
+        <a id="URLOverview1" href=""></a>
+        <span id='inPhraseOverview1'> in <span id='miniPhraseOverview1'>Phrase Overview</span></span>
+        <span id='inDomainOverview1'> in <span id='miniDomainOverview1'>Domain Overview</span></span>
+        <span id='inURLOverview1'> in <span id='miniURLOverview1'>URL Overview</span></span>
+    </div>
+</form>
+</div>
+
+<!-- Вторая Суперпоисковая Строка -->
+<div id="Bar2">
+    <form id="forma2">
+        <label for="input2"></label><input id="input2" name="input1" type="url" placeholder="Input any text...">
+        <input id="reset2" type="button" value="&#215" onclick="res('2')">
+        <input id="search2" type="button" value="Search" disabled onclick="setTimeout(SendingRequest('2'),250);">
+        <div id="hint2">
+            <a id="PhraseOverview2" href=""></a>
+            <a id="DomainOverview2" href=""></a>
+            <a id="URLOverview2" href=""></a>
+            <span id='inPhraseOverview2'> in <span id='miniPhraseOverview2'>Phrase Overview</span></span>
+            <span id='inDomainOverview2'> in <span id='miniDomainOverview2'>Domain Overview</span></span>
+            <span id='inURLOverview2'> in <span id='miniURLOverview2'>URL Overview</span></span>
+        </div>
+    </form>
+</div>
+</body>
+</html>

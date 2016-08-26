@@ -13,8 +13,16 @@
     app.createObject(tegA);
     app.createObject(tegB);
 
-    // Теперь непосредственно вызывем функцию addObject нашего Singleton-объекта для поиска
+    // Теперь непосредственно вызывем функцию addObjectWithOutServer нашего Singleton-объекта для поиска
     // только что добавленного JSON-объекта tagA.
+    app.addObjectWithOutServer('/app.php?123', function(obj){
+        $(document).ready(function() {
+            $ ("body").append(obj);
+        });
+    });
+
+    // Добавления запроса на сервер для поиска JSON-объекта с указанным url-адресом и последующей
+    // передачей полученного html объекта функции-обработки callbackFunc.
     app.addObject('/app.php?123', function(obj){
         $(document).ready(function() {
             $ ("body").append(obj);

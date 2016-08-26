@@ -1,0 +1,161 @@
+/*
+ * Тут представлена каскадная таблица стилей. Основополагающим блоком для суперпоисковой строки
+ * является блок Bar№. Для создания новой суперпоисковой строки нужно добавить описание этого блока
+ * во всех других местах достаточно просто приписать id соответствующих тегов. Обратите внимание, что
+ * поскольку позиция у блока Bar№ является относительной, нужно это учитывать для определения его
+ * положения. Примечание по поводу размера шрифта: для оптимального варианта значение поля
+ * font-size должно быть таковым - (width/100)mm.
+ */
+body {
+    margin: 0;
+    position: relative;
+}
+
+#Bar1 {
+    position: relative;
+    border: 0;
+    width: 700px;
+    height: 250px;
+
+    background-color: lightgray;
+    font-size: 7mm;
+}
+#Bar2 {
+    position: relative;
+    border: 0;
+    width: 500px;
+    height: 200px;
+    left: 600px;
+    top: 100px;
+
+    background-color: lightgray;
+    font-size: 5mm;
+}
+#forma1, #forma2 {
+    position: absolute;
+    border: 0;
+    top: 5%;
+    left: 2%;
+    width: 96%;
+    height: 90%;
+
+    font-size: 100%;
+}
+#input1, #input2 {
+    position: relative;
+    border-right-width: 0;
+    top: 5%;
+    left: 2%;
+    width: 67%;
+    height: 20%;
+    padding-left: 3%;
+
+    font-family: Monospaced, sans-serif;
+    font-size: 90%;
+}
+#reset1, #reset2 {
+    position: absolute;
+    top: 0;
+    left: 65%;
+    width: 7%;
+    height: 23%;
+
+    opacity: 0.8;
+    visibility: hidden;
+    font-size: 80%;
+}
+#search1, #search2 {
+    position: absolute;
+    border-left-width: 0;
+    top: 0;
+    right: 2%;
+    width: 26%;
+    height: 23%;
+
+    background-color: orangered;
+    text-align: center;
+    color: white;
+    font-family: Monospaced, sans-serif ;
+    font-size: 80%;
+}
+#hint1, #hint2 {
+    position: relative;
+    top: 12%;
+    left: 2%;
+    width: 70%;
+    height: 50%;
+
+    background-color: white;
+    visibility: hidden;
+    font-size: 80%;
+}
+#PhraseOverview1, #PhraseOverview2 {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 65%;
+
+    color: black;
+    font-weight: bold;
+    font-family: SansSerif, monospace;
+    text-decoration: none;
+    overflow: hidden;
+    font-size: 80%;
+}
+#DomainOverview1, #DomainOverview2 {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    width: 65%;
+
+    color: black;
+    font-weight: bold;
+    font-family: SansSerif, monospace;
+    text-decoration: none;
+    overflow: hidden;
+    font-size: 80%;
+}
+#URLOverview1, #URLOverview2 {
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    width: 65%;
+
+    color: black;
+    font-weight: bold;
+    font-family: SansSerif, monospace;
+    text-decoration: none;
+    overflow: hidden;
+    font-size: 80%;
+}
+#inPhraseOverview1, #inPhraseOverview2 {
+    position: absolute;
+    left: 72%;
+    top: 12%;
+
+    font-family: SansSerif, sans-serif;
+    font-size: 70%;
+}
+#inDomainOverview1, #inDomainOverview2 {
+    position: absolute;
+    left: 72%;
+    top: 42%;
+
+    font-family: SansSerif, sans-serif;
+    font-size: 70%;
+}
+#inURLOverview1, #inURLOverview2 {
+    position: absolute;
+    left: 72%;
+    top: 72%;
+
+    font-family: SansSerif, sans-serif;
+    font-size: 70%;
+}
+#miniPhraseOverview1, #miniDomainOverview1, #miniURLOverview1,
+#miniPhraseOverview2, #miniDomainOverview2, #miniURLOverview2 {
+    color: deepskyblue;
+    font-family: SansSerif, sans-serif;
+    font-size: 90%;
+}
+
