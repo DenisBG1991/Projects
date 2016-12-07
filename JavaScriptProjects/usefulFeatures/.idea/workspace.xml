@@ -23,25 +23,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="usefulFeatures.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="usefulFeatures.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/usefulFeatures.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="138" column="5" lean-forward="false" selection-start-line="138" selection-start-column="5" selection-end-line="138" selection-end-column="5" />
+            <state relative-caret-position="502">
+              <caret line="142" column="0" lean-forward="false" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
               <folding>
                 <element signature="n#!!block;n#inherit#0;n#!!block;n#usefulFunctions#0" expanded="false" />
                 <element signature="n#!!block;n#extend#0;n#!!block;n#usefulFunctions#0" expanded="false" />
-                <element signature="e#941#983#0" expanded="false" />
                 <element signature="n#!!block;n#merge#0;n#!!block;n#usefulFunctions#0" expanded="false" />
                 <element signature="n#!!block;n#restrict#0;n#!!block;n#usefulFunctions#0" expanded="false" />
                 <element signature="n#!!block;n#subtract#0;n#!!block;n#usefulFunctions#0" expanded="false" />
                 <element signature="n#!!block;n#union#0;n#!!block;n#usefulFunctions#0" expanded="false" />
                 <element signature="n#!!block;n#intersection#0;n#!!block;n#usefulFunctions#0" expanded="false" />
                 <element signature="n#!!block;n#keys#0;n#!!block;n#usefulFunctions#0" expanded="false" />
-                <element signature="e#3051#3478#0" expanded="false" />
+                <element signature="e#3170#3597#0" expanded="false" />
                 <element signature="n#!!block;n#trace#0;n#!!block;n#usefulFunctions#0" expanded="false" />
                 <element signature="n#!!block;n#useTrace#0;n#!!block;n#usefulFunctions#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="usefulFeatures.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/usefulFeatures.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1632">
+              <caret line="117" column="65" lean-forward="false" selection-start-line="117" selection-start-column="65" selection-end-line="117" selection-end-column="65" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -52,6 +61,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -60,6 +70,7 @@
       <list>
         <option value="$PROJECT_DIR$/js/bootstrap.js" />
         <option value="$PROJECT_DIR$/js/usefulFeatures.js" />
+        <option value="$PROJECT_DIR$/usefulFeatures.html" />
       </list>
     </option>
   </component>
@@ -76,7 +87,7 @@
     <option name="height" value="784" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -89,33 +100,19 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="usefulFeatures" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="usefulFeatures" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../NotesEditor" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="editor.config.accepted" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="C:\Users\Денис\AppData\Roaming\npm\node_modules\gulp" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -203,11 +200,14 @@
       <workItem from="1479962055359" duration="730000" />
       <workItem from="1479962817659" duration="100000" />
       <workItem from="1479963037866" duration="888000" />
+      <workItem from="1480410979128" duration="4027000" />
+      <workItem from="1481052938085" duration="3816000" />
+      <workItem from="1481107244103" duration="14089000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9851000" />
+    <option name="totallyTimeSpent" value="31783000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -220,15 +220,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1420635" sideWeight="0.47030878" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23730159" sideWeight="0.47030878" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936507" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32854864" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32777777" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936507" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1420635" sideWeight="0.5296912" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -237,6 +236,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -256,26 +256,53 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/usefulFeatures.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="2414">
+          <caret line="142" column="0" lean-forward="true" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
           <folding>
             <element signature="n#!!block;n#inherit#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#extend#0;n#!!block;n#usefulFunctions#0" expanded="false" />
-            <element signature="e#941#983#0" expanded="false" />
             <element signature="n#!!block;n#merge#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#restrict#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#subtract#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#union#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#intersection#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#keys#0;n#!!block;n#usefulFunctions#0" expanded="false" />
-            <element signature="e#3051#3478#0" expanded="false" />
+            <element signature="e#3170#3597#0" expanded="false" />
+            <element signature="n#!!block;n#trace#0;n#!!block;n#usefulFunctions#0" expanded="false" />
+            <element signature="n#!!block;n#useTrace#0;n#!!block;n#usefulFunctions#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usefulFeatures.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/usefulFeatures.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#inherit#0;n#!!block;n#usefulFunctions#0" expanded="false" />
+            <element signature="n#!!block;n#extend#0;n#!!block;n#usefulFunctions#0" expanded="false" />
+            <element signature="n#!!block;n#merge#0;n#!!block;n#usefulFunctions#0" expanded="false" />
+            <element signature="n#!!block;n#restrict#0;n#!!block;n#usefulFunctions#0" expanded="false" />
+            <element signature="n#!!block;n#subtract#0;n#!!block;n#usefulFunctions#0" expanded="false" />
+            <element signature="n#!!block;n#union#0;n#!!block;n#usefulFunctions#0" expanded="false" />
+            <element signature="n#!!block;n#intersection#0;n#!!block;n#usefulFunctions#0" expanded="false" />
+            <element signature="n#!!block;n#keys#0;n#!!block;n#usefulFunctions#0" expanded="false" />
+            <element signature="e#3170#3597#0" expanded="false" />
             <element signature="n#!!block;n#trace#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#useTrace#0;n#!!block;n#usefulFunctions#0" expanded="false" />
           </folding>
@@ -289,14 +316,13 @@
           <folding>
             <element signature="n#!!block;n#inherit#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#extend#0;n#!!block;n#usefulFunctions#0" expanded="false" />
-            <element signature="e#941#983#0" expanded="false" />
             <element signature="n#!!block;n#merge#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#restrict#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#subtract#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#union#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#intersection#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#keys#0;n#!!block;n#usefulFunctions#0" expanded="false" />
-            <element signature="e#3051#3478#0" expanded="false" />
+            <element signature="e#3170#3597#0" expanded="false" />
             <element signature="n#!!block;n#trace#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#useTrace#0;n#!!block;n#usefulFunctions#0" expanded="false" />
           </folding>
@@ -310,14 +336,13 @@
           <folding>
             <element signature="n#!!block;n#inherit#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#extend#0;n#!!block;n#usefulFunctions#0" expanded="false" />
-            <element signature="e#941#983#0" expanded="false" />
             <element signature="n#!!block;n#merge#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#restrict#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#subtract#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#union#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#intersection#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#keys#0;n#!!block;n#usefulFunctions#0" expanded="false" />
-            <element signature="e#3051#3478#0" expanded="false" />
+            <element signature="e#3170#3597#0" expanded="false" />
             <element signature="n#!!block;n#trace#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#useTrace#0;n#!!block;n#usefulFunctions#0" expanded="false" />
           </folding>
@@ -331,14 +356,13 @@
           <folding>
             <element signature="n#!!block;n#inherit#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#extend#0;n#!!block;n#usefulFunctions#0" expanded="false" />
-            <element signature="e#941#983#0" expanded="false" />
             <element signature="n#!!block;n#merge#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#restrict#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#subtract#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#union#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#intersection#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#keys#0;n#!!block;n#usefulFunctions#0" expanded="false" />
-            <element signature="e#3051#3478#0" expanded="false" />
+            <element signature="e#3170#3597#0" expanded="false" />
             <element signature="n#!!block;n#trace#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#useTrace#0;n#!!block;n#usefulFunctions#0" expanded="false" />
           </folding>
@@ -352,14 +376,13 @@
           <folding>
             <element signature="n#!!block;n#inherit#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#extend#0;n#!!block;n#usefulFunctions#0" expanded="false" />
-            <element signature="e#941#983#0" expanded="false" />
             <element signature="n#!!block;n#merge#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#restrict#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#subtract#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#union#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#intersection#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#keys#0;n#!!block;n#usefulFunctions#0" expanded="false" />
-            <element signature="e#3051#3478#0" expanded="false" />
+            <element signature="e#3170#3597#0" expanded="false" />
             <element signature="n#!!block;n#trace#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#useTrace#0;n#!!block;n#usefulFunctions#0" expanded="false" />
           </folding>
@@ -373,14 +396,13 @@
           <folding>
             <element signature="n#!!block;n#inherit#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#extend#0;n#!!block;n#usefulFunctions#0" expanded="false" />
-            <element signature="e#941#983#0" expanded="false" />
             <element signature="n#!!block;n#merge#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#restrict#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#subtract#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#union#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#intersection#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#keys#0;n#!!block;n#usefulFunctions#0" expanded="false" />
-            <element signature="e#3051#3478#0" expanded="false" />
+            <element signature="e#3170#3597#0" expanded="false" />
             <element signature="n#!!block;n#trace#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#useTrace#0;n#!!block;n#usefulFunctions#0" expanded="false" />
           </folding>
@@ -394,14 +416,13 @@
           <folding>
             <element signature="n#!!block;n#inherit#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#extend#0;n#!!block;n#usefulFunctions#0" expanded="false" />
-            <element signature="e#941#983#0" expanded="false" />
             <element signature="n#!!block;n#merge#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#restrict#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#subtract#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#union#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#intersection#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#keys#0;n#!!block;n#usefulFunctions#0" expanded="false" />
-            <element signature="e#3051#3478#0" expanded="false" />
+            <element signature="e#3170#3597#0" expanded="false" />
             <element signature="n#!!block;n#trace#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#useTrace#0;n#!!block;n#usefulFunctions#0" expanded="false" />
           </folding>
@@ -415,14 +436,13 @@
           <folding>
             <element signature="n#!!block;n#inherit#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#extend#0;n#!!block;n#usefulFunctions#0" expanded="false" />
-            <element signature="e#941#983#0" expanded="false" />
             <element signature="n#!!block;n#merge#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#restrict#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#subtract#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#union#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#intersection#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#keys#0;n#!!block;n#usefulFunctions#0" expanded="false" />
-            <element signature="e#3051#3478#0" expanded="false" />
+            <element signature="e#3170#3597#0" expanded="false" />
             <element signature="n#!!block;n#trace#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#useTrace#0;n#!!block;n#usefulFunctions#0" expanded="false" />
           </folding>
@@ -436,14 +456,13 @@
           <folding>
             <element signature="n#!!block;n#inherit#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#extend#0;n#!!block;n#usefulFunctions#0" expanded="false" />
-            <element signature="e#941#983#0" expanded="false" />
             <element signature="n#!!block;n#merge#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#restrict#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#subtract#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#union#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#intersection#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#keys#0;n#!!block;n#usefulFunctions#0" expanded="false" />
-            <element signature="e#3051#3478#0" expanded="false" />
+            <element signature="e#3170#3597#0" expanded="false" />
             <element signature="n#!!block;n#trace#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#useTrace#0;n#!!block;n#usefulFunctions#0" expanded="false" />
           </folding>
@@ -457,14 +476,13 @@
           <folding>
             <element signature="n#!!block;n#inherit#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#extend#0;n#!!block;n#usefulFunctions#0" expanded="false" />
-            <element signature="e#941#983#0" expanded="false" />
             <element signature="n#!!block;n#merge#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#restrict#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#subtract#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#union#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#intersection#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#keys#0;n#!!block;n#usefulFunctions#0" expanded="false" />
-            <element signature="e#3051#3478#0" expanded="false" />
+            <element signature="e#3170#3597#0" expanded="false" />
             <element signature="n#!!block;n#trace#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#useTrace#0;n#!!block;n#usefulFunctions#0" expanded="false" />
           </folding>
@@ -478,14 +496,53 @@
           <folding>
             <element signature="n#!!block;n#inherit#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#extend#0;n#!!block;n#usefulFunctions#0" expanded="false" />
-            <element signature="e#941#983#0" expanded="false" />
             <element signature="n#!!block;n#merge#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#restrict#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#subtract#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#union#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#intersection#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#keys#0;n#!!block;n#usefulFunctions#0" expanded="false" />
-            <element signature="e#3051#3478#0" expanded="false" />
+            <element signature="e#3170#3597#0" expanded="false" />
+            <element signature="n#!!block;n#trace#0;n#!!block;n#usefulFunctions#0" expanded="false" />
+            <element signature="n#!!block;n#useTrace#0;n#!!block;n#usefulFunctions#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/usefulFeatures.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#inherit#0;n#!!block;n#usefulFunctions#0" expanded="false" />
+            <element signature="n#!!block;n#extend#0;n#!!block;n#usefulFunctions#0" expanded="false" />
+            <element signature="n#!!block;n#merge#0;n#!!block;n#usefulFunctions#0" expanded="false" />
+            <element signature="n#!!block;n#restrict#0;n#!!block;n#usefulFunctions#0" expanded="false" />
+            <element signature="n#!!block;n#subtract#0;n#!!block;n#usefulFunctions#0" expanded="false" />
+            <element signature="n#!!block;n#union#0;n#!!block;n#usefulFunctions#0" expanded="false" />
+            <element signature="n#!!block;n#intersection#0;n#!!block;n#usefulFunctions#0" expanded="false" />
+            <element signature="n#!!block;n#keys#0;n#!!block;n#usefulFunctions#0" expanded="false" />
+            <element signature="e#3170#3597#0" expanded="false" />
+            <element signature="n#!!block;n#trace#0;n#!!block;n#usefulFunctions#0" expanded="false" />
+            <element signature="n#!!block;n#useTrace#0;n#!!block;n#usefulFunctions#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/usefulFeatures.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#inherit#0;n#!!block;n#usefulFunctions#0" expanded="false" />
+            <element signature="n#!!block;n#extend#0;n#!!block;n#usefulFunctions#0" expanded="false" />
+            <element signature="n#!!block;n#merge#0;n#!!block;n#usefulFunctions#0" expanded="false" />
+            <element signature="n#!!block;n#restrict#0;n#!!block;n#usefulFunctions#0" expanded="false" />
+            <element signature="n#!!block;n#subtract#0;n#!!block;n#usefulFunctions#0" expanded="false" />
+            <element signature="n#!!block;n#union#0;n#!!block;n#usefulFunctions#0" expanded="false" />
+            <element signature="n#!!block;n#intersection#0;n#!!block;n#usefulFunctions#0" expanded="false" />
+            <element signature="n#!!block;n#keys#0;n#!!block;n#usefulFunctions#0" expanded="false" />
+            <element signature="e#3170#3597#0" expanded="false" />
             <element signature="n#!!block;n#trace#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#useTrace#0;n#!!block;n#usefulFunctions#0" expanded="false" />
           </folding>
@@ -499,26 +556,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/npm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../NotesEditor/node_modules/babel-cli/lib/babel/util.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
           <caret line="49" column="21" lean-forward="false" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -526,28 +567,80 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="298" column="18" lean-forward="false" selection-start-line="298" selection-start-column="18" selection-end-line="298" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="1575" column="30" lean-forward="false" selection-start-line="1575" selection-start-column="30" selection-end-line="1575" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/npm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/js/usefulFeatures.js.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-607">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/js/usefulFeatures.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/usefulFeatures.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="138" column="5" lean-forward="false" selection-start-line="138" selection-start-column="5" selection-end-line="138" selection-end-column="5" />
+        <state relative-caret-position="502">
+          <caret line="142" column="0" lean-forward="false" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
           <folding>
             <element signature="n#!!block;n#inherit#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#extend#0;n#!!block;n#usefulFunctions#0" expanded="false" />
-            <element signature="e#941#983#0" expanded="false" />
             <element signature="n#!!block;n#merge#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#restrict#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#subtract#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#union#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#intersection#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#keys#0;n#!!block;n#usefulFunctions#0" expanded="false" />
-            <element signature="e#3051#3478#0" expanded="false" />
+            <element signature="e#3170#3597#0" expanded="false" />
             <element signature="n#!!block;n#trace#0;n#!!block;n#usefulFunctions#0" expanded="false" />
             <element signature="n#!!block;n#useTrace#0;n#!!block;n#usefulFunctions#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usefulFeatures.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="117" column="65" lean-forward="false" selection-start-line="117" selection-start-column="65" selection-end-line="117" selection-end-column="65" />
+          <folding />
         </state>
       </provider>
     </entry>

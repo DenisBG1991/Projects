@@ -44,7 +44,8 @@ export function usefulFunctions() {
 
     /**
      * Удаляет из объекта o свойства, отсутствующие в объекте p.
-     * Возвращает o.
+     * Возвращает o. Объект o будет являться подмножеством множества 
+     * объекта p.
      */
     function restrict(o, p) {
         for(var prop in o){
@@ -55,7 +56,7 @@ export function usefulFunctions() {
 
     /**
      * Удаляет из объекта o свойства, присутствующие в объекте p.
-     * Возвращает o.
+     * Возвращает o. Объект o будет представлять разность двух множеств.
      */
     function subtract(o, p) {
         for(var prop in p){
@@ -138,3 +139,5 @@ export function usefulFunctions() {
         f.x(name);
     }
 }
+
+
