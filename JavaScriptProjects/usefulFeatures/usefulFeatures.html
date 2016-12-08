@@ -5,12 +5,12 @@
     <title>Title</title>
 </head>
 <body>
-<script  type="application/javascript; version=1.8">
+<script type="application/javascript; version=1.8">
     /**
      * Простейшая функция-итератор.
      */
 
-    function range (min, max) {
+    /*function range (min, max) {
         return {
             get min() {return min;},
             get max() {return max;},
@@ -30,25 +30,33 @@
                 };
             }
         };
-    }
+    }*/
+
+    /**
+     * Простейшая функция-генератор.
+     */
+
+     function ranges(min, max) {
+        for(let i = Math.ceil(min); i <= max; i++) yield i;
+     }
     /*=============================================================================*/
     /**
      * Функция-генератор для Фибоначчи.
      */
 
-    function fibonacci() {
+    /*function fibonacci() {
         let x = 0, y = 1;
         while(true){
             yield y;
             [x,y]=[y,x+y];
         }
-    }
+    }*/
     /*=============================================================================*/
     /**
      * Фунции-генераторы для составления цепочки функций-генераторов.
      */
 
-    function eachline(s) {
+    /*function eachline(s) {
         let p;
         while ((p = s.indexOf('\n')) != -1) {
             yield s.substring(0, p);
@@ -65,7 +73,7 @@
         for (let x in i) {
             if (f(x)) yield x;
         }
-    }
+    }*/
     /*=============================================================================*/
 
     /**
@@ -73,7 +81,7 @@
      * Метод send() позволяет увеличить счетчик на определенное значения,
      * а метод throw("reset") сбрасывает счетчик в начальное значение.
      */
-     function counter (initial) {
+     /*function counter (initial) {
         let nextValue = initial;
         while(true) {
             try {
@@ -90,7 +98,7 @@
                 else throw new Error(e);
             }
         }
-     }
+     }*/
     /*=============================================================================*/
     /*=============================================================================*/
     /**
@@ -101,13 +109,16 @@
      */
     /*=============================================================================*/
 
-    /*for (let i in range(1,15)) console.log(i + " and " + range(1,15)[i]);
+    /*Пример работы итератора range().*/
+    /*for (let i in range(1,15)) console.log(i + " and " + range(1,15)[i]);*/
 
-    for (let [k, v] in Iterator({a: 1, b: 5})){
+    /*Непосредственный вызов Iterator() для простого объекта.*/
+    /*for (let [k, v] in Iterator({a: 1, b: 5})){
         alert(k + "=" + v);
-    }
+    }*/
 
-    let o = {x: 100, y: 1999};
+    /*Интересные примеры работы Iterator() для объекта с унаследованным свойством.*/
+    /*let o = {x: 100, y: 1999};
     Object.prototype.z = 3;
     for (let p in o) console.log (p);
     console.log("======================");
@@ -115,14 +126,24 @@
     console.log("======================");
     for (let p in Iterator(o, true)) console.log(p);*/
 
-    /* Генераторы массивов почему-то не работают...!!!!!!!!!!!!!!*/
-    /*let evensquares = [x*x for (x in range(0,20)) if (x % 2 === 0)];
+    /*Генератор массива!*/
+    /*let evensquares = [for (x of ranges(0,20)) if (x % 2 === 0) x*x];
     console.log(evensquares);
+
+    let even = [];
+    for (x in ranges(0,20)) {
+        if (x % 2 === 0) {
+            even.push(x*x);
+        }
+    }
+    console.log(even);
+
     let data = [2,5,9,11];
-    let square = (x*x for (x in data));
-    for ( let r in square) console.log(square);*/
+    let square = [for (x of data) x*x];
+    console.log(square);*/
     /*=============================================================================*/
 
+    /*Реализация генератора для функции Фибоначчи.*/
     /*f = fibonacci();
     for (let p in f) {
         if (p < 100) {
@@ -139,9 +160,12 @@
     let lines = eachline(text);*/
 
     /* Выражения-генераторы почему-то не работают...!!!!!!!!!!!!!!*/
-    /*let trimmed = (l.trim() for (l in lines));
-    let nonblank = (l for (l in trimmed) if (l.length > 0 && l[0]!="#"));
-    console.log(nonblank);*/
+    /*let trimmed = (for (l of lines) l.trim());
+    let nonblank = (for (l of trimmed) if (l.length > 0 && l[0]!="#") l);
+    for (let line in nonblank) {
+        if (line === "quit") break;
+        console.log(line);
+    }*/
 
     /*let trimmed = map(lines, function(line) { return line.trim(); });
     let nonblank = select(trimmed, function(line) {
