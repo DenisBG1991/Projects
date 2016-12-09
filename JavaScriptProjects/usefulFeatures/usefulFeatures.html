@@ -56,7 +56,7 @@
      * Фунции-генераторы для составления цепочки функций-генераторов.
      */
 
-    /*function eachline(s) {
+    function eachline(s) {
         let p;
         while ((p = s.indexOf('\n')) != -1) {
             yield s.substring(0, p);
@@ -65,7 +65,7 @@
         if (s.length > 0) yield s;
     }
 
-    function map(i, f) {
+    /*function map(i, f) {
         for (let x in i) yield f(x);
     }
 
@@ -156,16 +156,16 @@
     }*/
     /*=============================================================================*/
 
-    /*let text = " #comments \n   \n hello\nguys\n quit\n unreached \n";
-    let lines = eachline(text);*/
+    let text = " #comments \n   \n hello\nguys\n quit\n unreached \n";
+    let lines = eachline(text);
 
-    /* Выражения-генераторы почему-то не работают...!!!!!!!!!!!!!!*/
-    /*let trimmed = (for (l of lines) l.trim());
+    /*Выражения-генераторы!*/
+    let trimmed = (for (l of lines) l.trim());
     let nonblank = (for (l of trimmed) if (l.length > 0 && l[0]!="#") l);
-    for (let line in nonblank) {
+    for (let line of nonblank) {
         if (line === "quit") break;
         console.log(line);
-    }*/
+    }
 
     /*let trimmed = map(lines, function(line) { return line.trim(); });
     let nonblank = select(trimmed, function(line) {
