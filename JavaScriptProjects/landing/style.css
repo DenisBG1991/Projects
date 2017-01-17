@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    height: 1049px;
+    background-color: rgba(69, 84, 105, 0.95);
+}
+
+.logo {
+    width: 500px;
+    height: 260px;
+    background: url("image/Bandera_Espana_trazos.png") no-repeat;
+    margin-top: 32px;
+    margin-left: 30px;
+    float: left;
+    font-size: 82px;
+    font-weight: 400;
+    color: #efefef;
+    padding-left: 400px;
+    padding-top: 150px;
+}
+
+.center_header {
+    width: 1100px;
+    clear: both;
+    margin-top: 300px;
+    margin-left: 150px;
+    background: url("image/dia.png") no-repeat right top;
+    background-size: 40% 60%;
+}
+
+.center_header h3 {
+    font-size: 42px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.center_header p {
+    font-size: 22px;
+    font-weight: 400;
+    color: #c5d2e5;
+    line-height: 44px;
+    width: 500px;
+    white-space: pre;
+}
+
+.center_header a {
+    display: block;
+    width: 200px;
+    height: 70px;
+    border-radius: 15px;
+    background-color: #67bf95;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 70px;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.about-us {
+    height: 515px;
+}
+
+.center_about_us {
+    width: 1000px;
+    height: 500px;
+    background: url("image/about_us.png") no-repeat;
+    background-size: 30% 60%;
+    padding-top: 50px;
+    margin-left: 150px;
+    margin-top: 70px;
+    float: left;
+}
+
+.center_about_us h4 {
+    margin-left: 300px;
+    color: #37414e;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.center_about_us p {
+    margin-left: 300px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #4b596c;
+    line-height: 34px;
+    width: 400px;
+    white-space: pre;
+}
+
+.icons {
+    float: left;
+    width: 80px;
+    margin-top: 180px;
+}
+
+.icons .pencil {
+    width: 40px;
+    height: 40px;
+    background-color: #67bf95;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 38px;
+    margin-bottom: 50px;
+    color: #ffffff;
+}
+
+.icons .facebook {
+    width: 38px;
+    height: 38px;
+    border: 2px solid #67bf95;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 38px;
+    color: #67bf95;
+}
+
+.modern {
+    height: 632px;
+    background-color: #52ad81;
+}
+
+.mail {
+    height: 937px;
+    background-color: #2d3136;
+}
+
+footer {
+    height: 190px;
+    background-color: #2a2d33;
+}

@@ -1,0 +1,19 @@
+{
+    "blocks": [
+        {
+            "title" : "Новость 1",
+            "description" : "Описание новости",
+            "link" : "https://vk.com/cocoabean"
+        },
+        {
+            "title" : "Новость 2",
+            "description" : "Описание новости",
+            "link" : "https://vk.com/cocoabean"
+        },
+        {
+            "title" : "Новость 3",
+            "description" : "Описание новости",
+            "link" : "https://vk.com/cocoabean"
+        }
+    ]
+}
