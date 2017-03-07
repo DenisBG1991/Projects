@@ -1,0 +1,59 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+$color_controls_items: #2c3e50;
+$color_controls_items_hover: #2eccf9;
+$color_controls_items_active: #2ecc71;
+
+$color_tabs_item: rgba(18,9,31,0.7);
+
+.tabs_controls {
+    text-align: center;
+    .tabs_controls_item {
+        display: inline-block;
+        margin-left: 20px;
+        background: $color_controls_items;
+        transition: .3s;
+        .tabs_control-link {
+            color: #ffffff;
+            text-transform: uppercase;
+            text-decoration: none;
+            display: block;
+            padding: 3px 7px;
+        }
+        &:hover {
+            background: $color_controls_items_hover;
+        }
+        &.active {
+            background: $color_controls_items_active;
+        }
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+}
+
+.tabs_list {
+    width: 40%;
+    margin: 0 auto;
+    .tabs_item {
+        list-style: none outside none;
+        display: none;
+        width: 100%;
+        border: 1px solid $color_tabs_item;
+        border-radius: 5px;
+        h2 {
+            text-align: center;
+        }
+        p {
+            padding: 5px 20px;
+        }
+        &.active {
+            display: block;
+        }
+    }
+}

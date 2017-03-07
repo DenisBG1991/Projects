@@ -1,0 +1,126 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../Program Files (x86)/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Program Files (x86)/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Program Files (x86)/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Program Files (x86)/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Program Files (x86)/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Program Files (x86)/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Program Files (x86)/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Program Files (x86)/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Program Files (x86)/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 14, ../sass/style.scss */
+.tabs_controls {
+  text-align: center;
+}
+/* line 16, ../sass/style.scss */
+.tabs_controls .tabs_controls_item {
+  display: inline-block;
+  margin-left: 20px;
+  background: #2c3e50;
+  transition: .3s;
+}
+/* line 21, ../sass/style.scss */
+.tabs_controls .tabs_controls_item .tabs_control-link {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  padding: 3px 7px;
+}
+/* line 28, ../sass/style.scss */
+.tabs_controls .tabs_controls_item:hover {
+  background: #2eccf9;
+}
+/* line 31, ../sass/style.scss */
+.tabs_controls .tabs_controls_item.active {
+  background: #2ecc71;
+}
+/* line 34, ../sass/style.scss */
+.tabs_controls .tabs_controls_item:first-child {
+  margin-left: 0;
+}
+
+/* line 40, ../sass/style.scss */
+.tabs_list {
+  width: 40%;
+  margin: 0 auto;
+}
+/* line 43, ../sass/style.scss */
+.tabs_list .tabs_item {
+  list-style: none outside none;
+  display: none;
+  width: 100%;
+  border: 1px solid rgba(18, 9, 31, 0.7);
+  border-radius: 5px;
+}
+/* line 49, ../sass/style.scss */
+.tabs_list .tabs_item h2 {
+  text-align: center;
+}
+/* line 52, ../sass/style.scss */
+.tabs_list .tabs_item p {
+  padding: 5px 20px;
+}
+/* line 55, ../sass/style.scss */
+.tabs_list .tabs_item.active {
+  display: block;
+}

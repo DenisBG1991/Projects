@@ -1,0 +1,23 @@
+doctype html
+- var user = "Denis Boriskov"
+- var menuItem = ["Главная", "Портфолио", "Контакты", "О компании"]
+- var menuFooter = ["Главная", "Портфолио", "О компании"]
+mixin menu(items)
+    ul
+        each item in items
+            li: a(href="#") #{item}
+html
+    head
+        title Jade working
+        link(rel="stylesheet", media="all", type="text/css", href="main.css")
+    body
+        header
+            h1
+                a(href="#") Главная страница сайта
+
+        nav
+            +menu(menuItem)
+        block content
+        footer
+            p.copyright Design by #{user}
+            +menu(menuFooter)
