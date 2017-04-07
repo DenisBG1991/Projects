@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UsefulEvents</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+<!-- DnD Full Version -->
+<ul class="dnd">
+    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, dolor!</li>
+    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, ut.</li>
+    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, doloremque?</li>
+    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, facilis!</li>
+    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, reiciendis.</li>
+    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, nobis!</li>
+</ul>
+
+<!-- DnD -->
+<h1>Drag timestamps from the clock</h1>
+<span id="clock"></span>
+<textarea name="source" id="source" cols="60" rows="20" title="textarea"></textarea>
+
+
+<!-- Небольшая валидация формы -->
+<!--
+<input id="zip" type="text" data-allowed-chars="0123456789" data-messageid="zipwarn">
+<span id="zipwarn" style="color: red; visibility: hidden">Только цифры</span>
+-->
+
+<!-- Демонстрация события wheel колесика мыши -->
+<!--
+<img id="content" src="images/SunDown.jpg">
+-->
+
+<!-- Простейший drag элемента -->
+<!--
+<div style="position: absolute; left: 100px; top: 100px; width: 250px; background-color: wheat;
+border: 1px solid black;">
+    <div style="background-color: gray; border-bottom: 1px dotted black; padding: 3px;
+font-family: sans-serif; font-weight: bold;" onmousedown="drag(this.parentNode, event);">Перетащите меня</div>
+    <p>Тест</p><p>Тест</p><p>Тест</p>
+</div>
+-->
+
+<script src="js/whenReady.js"></script>
+<script src="js/Drag.js"></script>
+<script src="js/enclose.js"></script>
+<script src="js/InputFilter.js"></script>
+<script src="js/DnD.js"></script>
+<script src="js/Keymap.js"></script>
+<script>
+    // Запуск DnD источника
+    whenReady(sourceDnD);
+
+    // Запуск DnD приемника
+    whenReady(receiverDnD);
+
+    // Запуск прослушки события wheel колесика мыши
+    whenReady(function () {
+        enclose(document.getElementById("content"), 400, 200, -200, -300);
+    });
+
+    // Привязка сочетания клавиш к элементу
+    var keymap = new Keymap();
+    keymap.bind("Alt_D", function(){
+        alert("It is work!");
+    });
+    var element = document.getElementById("source");
+    keymap.install(element);
+</script>
+</body>
+</html>
