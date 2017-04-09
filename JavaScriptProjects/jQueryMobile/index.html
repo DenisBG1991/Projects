@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <title>jQueryMobile</title>
+</head>
+<body>
+
+    // First page
+    <div id="home" data-role="page" data-theme="a" datafullscreen="true">
+
+        <div data-role="header" data-position="fixed" data-add-back-btn="true" data-back-btn-text="back"
+        data-back-btn-theme="a">
+            <a href="#" data-icon="gear" data-transition="slide" class="ui-btn-right">Settings</a>
+            <h1>Quote me ...</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <div class="logo">
+                <img src="image/milen4.jpg" style="width: 100%">
+            </div>
+        </div>
+
+        <div data-role="footer" data-id="main-menu" data-position="fixed">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#home" data-icon="home" data-transition="slide"
+                           class="ui-btn-active ui-state-persist">Home</a></li>
+                    <li><a href="#quotations" data-icon="grid" data-transition="slide">Quotations</a></li>
+                    <li><a href="#about" data-icon="info" data-transition="slide">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    // Second page
+    <div id="quotations" data-role="page" data-theme="a">
+        <div data-role="header" data-position="fixed" data-add-back-btn="true" data-back-btn-text="back"
+             data-back-btn-theme="a">
+            <h1><img src="image/milen3_81x115.png"></h1>
+            <a href="#" data-icon="refresh" data-transition="slide" class="ui-btn-left">Edit</a>
+            <a href="#addPage" data-icon="plus" data-transition="slide" class="ui-btn-right">Add</a>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <h1>List</h1>
+
+            <ul data-role="listview" data-inset="true" data-filter="true" data-filter-placeholder="Search quote..."
+                data-filter-theme="d" data-split-icon="forward">
+                <li>
+                    <a href="#popup" data-rel="popup" data-position="windows">List1</a>
+                    <a href="#popup2" data-rel="popup" data-position="windows"></a>
+                </li>
+                <li data-role="list-divider"></li>
+                <li>list1
+                    <ul data-role="listview" data-inset="true" data-count-theme="d">
+                        <li data-role="list-divider">Short story<span class="ui-li-count">3</span></li>
+                        <li>
+                            <h3>Main text</h3>
+                            <p>This text about something.</p>
+                        </li>
+                        <li>
+                            <p>My best practice</p>
+                            <p class="ui-li-aside">25 Mar 2017</p>
+                        </li>
+                        <li><img src="image/milen1_57x72.jpg" alt=""></li>
+                    </ul>
+                </li>
+                <li data-role="list-divider"></li>
+                <li data-icon="false"><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et quibusdam quo quos temporibus. Animi dolore, eius explicabo fugiat itaque molestiae?</a></li>
+            </ul>
+        </div>
+
+        <div data-role="footer" data-id="main-menu" data-position="fixed">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#home" data-icon="home" data-transition="slide">Home</a></li>
+                    <li><a href="#quotations" data-icon="grid" data-transition="slide"
+                           class="ui-btn-active ui-state-persist">Quotations</a></li>
+                    <li><a href="#about" data-icon="info" data-transition="slide">About</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div data-role="popup" id="popup" class="ui-content">
+            <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-left"></a>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus at autem corporis eveniet illo laboriosam libero. Maiores molestias nesciunt porro?</p>
+        </div>
+    </div>
+
+
+    // Third page
+    <div id="about" data-role="page" data-theme="a">
+
+        <div data-role="header" data-position="fixed" data-add-back-btn="true" data-back-btn-text="back"
+             data-back-btn-theme="a">
+            <h1><img src="image/milen3_81x115.png"></h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <h1>About</h1>
+            <div data-role="collapsible">
+                <h3>Author info</h3>
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">Photo</div>
+                    <div class="ui-block-b">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur exercitationem expedita magnam quisquam rerum sed.
+                    </div>
+                </div>
+            </div>
+
+            <div data-role="collapsible-set">
+                <div data-role="collapsible">
+                    <h3>About Us</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est et id ipsam iusto magnam odit optio provident recusandae repellendus velit?</p>
+                </div>
+                <div data-role="collapsible">
+                    <h3>About App</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus perferendis quia reprehenderit? Corporis facere ipsum quam quo? Odit, repellendus soluta?</p>
+                </div>
+                <div data-role="collapsible">
+                    <h3>Manual</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda cum dignissimos eligendi enim et minima mollitia omnis, quasi ratione voluptates.</p>
+                </div>
+            </div>
+
+            <h4> Feedback </h4>
+            <div data-role="controlgroup" data-type="horizontal">
+                <a href="#" data-role="button" data-theme="b">Like</a>
+                <a href="#" data-role="button">Dislike</a>
+            </div>
+        </div>
+
+        <div data-role="footer" data-id="main-menu" data-position="fixed">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#home" data-icon="home" data-transition="slide">Home</a></li>
+                    <li><a href="#quotations" data-icon="grid" data-transition="slide">Quotations</a></li>
+                    <li><a href="#about" data-icon="info" data-transition="slide"
+                           class="ui-btn-active ui-state-persist">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    // Add page (in second page)
+    <div data-role="page" id="addPage" datafullscreen="true">
+        <div data-role="header" data-position="fixed" data-add-back-btn="true" data-back-btn-text="back"
+             data-back-btn-theme="a">
+            <h1>Add new Quote</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <form action="" method="post">
+                <label for="quote-title">Title:</label>
+                <input type="text" name="quote-title" id="quote-title" placeholder="Enter Title">
+
+                <label for="quote-text">Quotations:</label>
+                <textarea name="quote-text" id="quote-text" cols="40" rows="4" placeholder="Enter Text"></textarea>
+
+                <label for="quote-author">Author/Book:</label>
+                <input type="text" name="quote-author" id="quote-author" placeholder="Enter Author/Book" value="">
+
+                <label for="quote-data">Data:</label>
+                <input type="date" name="quote-data" id="quote-data" value="">
+
+                <label for="rank-slider">Your Rank:</label>
+                <input type="range" name="rank-slider" id="rank-slider" value="50" min="0" max="100">
+
+                <label for="favorites">Save your favorites:</label>
+                <select name="favorites" id="favorites" data-role="slider" data-mini="true">
+                    <option value="off">No</option>
+                    <option value="on" selected="">Yes</option>
+                </select>
+
+                <fieldset data-role="controlgroup" data-type="horizontal" data-mini="true">
+                    <legend> Favorite groups: </legend>
+                    <label for="fav-home">h</label>
+                    <input type="checkbox" name="fav-home" id="fav-home">
+                    <label for="fav-heart">m</label>
+                    <input type="checkbox" name="fav-heart" id="fav-heart" checked="">
+                    <label for="fav-lock">l</label>
+                    <input type="checkbox" name="fav-lock" id="fav-lock">
+                    <label for="fav-user">u</label>
+                    <input type="checkbox" name="fav-user" id="fav-user">
+                    <label for="fav-video">v</label>
+                    <input type="checkbox" name="fav-video" id="fav-video">
+                </fieldset>
+
+                <label for="select-topic" class="ui-select">Select quota topic:</label>
+                <select name="select-topic" id="select-topic">
+                    <option value="sci-fi">Sci-fi</option>
+                    <option value="drama">Drama</option>
+                    <option value="scary">Scary</option>
+                    <option value="action">Action</option>
+                </select>
+
+                <fieldset data-role="controlgroup">
+                    <legend> Your mood: </legend>
+                    <label for="mood-exhausted">Exhausted</label>
+                    <input type="radio" name="mood" id="mood-exhausted" value="exhausted">
+                    <label for="fav-furious">Furious</label>
+                    <input type="radio" name="mood" id="fav-furious" value="furious">
+                    <label for="fav-relaxed">Relaxed</label>
+                    <input type="radio" name="mood" id="fav-relaxed" value="relaxed">
+                    <label for="fav-happy">Happy</label>
+                    <input type="radio" name="mood" id="fav-happy" value="happy">
+                </fieldset>
+
+                <div data-role="controlgroup" data-type="horizontal">
+                    <input type="submit" value="Submit" data-theme="b">
+                    <input type="reset" value="Reset">
+                </div>
+            </form>
+        </div>
+
+        <div data-role="footer" data-id="main-menu" data-position="fixed">
+
+        </div>
+    </div>
+
+</body>
+</html>

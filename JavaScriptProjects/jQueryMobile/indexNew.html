@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.12.0.min.js"><\/script>')</script>
+    <script src="js/maininit.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <title>jQueryMobile</title>
+</head>
+<body>
+
+    <div id="home" data-role="page" class="mainPage" datafullscreen="true">
+
+        <div data-role="header" data-position="fixed">
+            <h1>Quote me...</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <ul id="list" data-role="listview" data-inset="true" data-filter-placeholder="Search quote..." data-split-icon="forward"></ul>
+        </div>
+
+        <div data-role="footer" data-id="main-menu" data-position="fixed">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#home" data-icon="home" data-transition="slide"
+                           class="ui-btn-active ui-state-persist">Home</a></li>
+                    <li><a href="#addData" data-icon="plus" data-transition="slide">Add</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="addData" data-role="page" datafullscreen="true">
+
+        <div data-role="header" data-position="fixed" data-add-back-btn="true" data-back-btn-text="back"
+             data-back-btn-theme="a">
+            <h1>Add Quote...</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <form action="" method="post" id="addForm">
+                <label for="quote-title">Title:</label>
+                <input type="text" name="quote-title" id="quote-title" placeholder="Enter Title" value="">
+
+                <label for="quote-text">Quotations:</label>
+                <textarea name="quote-text" id="quote-text" cols="40" rows="4" placeholder="Enter Text"></textarea>
+
+                <label for="quote-author">Author/Book:</label>
+                <input type="text" name="quote-author" id="quote-author" placeholder="Enter Author/Book" value="">
+
+                <div data-role="controlgroup" data-type="horizontal">
+                    <input type="submit" value="Submit" data-theme="b">
+                    <input type="reset" value="Reset">
+                </div>
+            </form>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+        </div>
+    </div>
+
+    <script src="js/plugin.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
