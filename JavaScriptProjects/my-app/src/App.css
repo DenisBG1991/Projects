@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+/*------------News CSS------------*/
+p {
+  margin: 0 0 5px;
+}
+
+.article {
+  background: #FFF;
+  border: 1px solid rgba(0, 89, 181, 0.82);
+  width: 600px;
+  margin: 5px auto 5px;
+  box-shadow: 2px 2px 5px -1px rgb(0, 81, 202);
+  padding: 3px 5px;
+}
+
+.news__author {
+  text-decoration: underline;
+  color: #007DDC;
+}
+
+.news__count {
+  margin: 10px 0 0 0;
+  display: block;
+}
+
+.news__text {
+  font-weight: bold;
+}
+
+.clicked {
+  color: rgba(149,24,254,0.97);
+}
+
+.none {
+    display: none !important;
+}
+
+/*---------------------------------*/
+
+.add {
+  margin: 5px 5px 5px 5px;
+  width: 210px;
+  border: 3px dashed rgba(0, 89, 181, 0.82);
+  padding: 5px;
+}
+
+.add__author, .add__text, .add__big__text, .add__btn, .add__checkrule {
+  display: block;
+  margin: 0 0 5px 0;
+  padding: 5px;
+  width: 94%;
+  border: 1px solid rgba(0, 89, 181, 0.82);
+}
+
+.add__checkrule {
+  border: none;
+  font-size: 12px;
+}
+
+.add__btn {
+  box-sizing: content-box;
+  color: #FFF;
+  text-transform: uppercase;
+  background: #007DDC;
+}
+
+.add__btn:disabled {
+  background: #CCC;
+  color: #999;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
