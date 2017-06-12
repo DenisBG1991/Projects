@@ -1,0 +1,1 @@
+module.exports = greeting => name => `${greeting}, ${name}!`;

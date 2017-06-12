@@ -1,0 +1,6 @@
+{
+  "/": {
+    "handler": "main",
+    "action": "index"
+  }
+}
