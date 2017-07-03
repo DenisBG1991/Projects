@@ -6,7 +6,7 @@ function List({ todos, onToggle, onRemove }) {
             {todos.map(todo =>
                 <div className="todo list-group-item justify-content-between" key={todo.id}>
                     <label>
-                        <input type="checkbox" checked={todo['completed']} onChange={() => onToggle(todo.id)} />
+                        <input type="checkbox" checked={todo.completed} onChange={() => onToggle(todo.id)} />
                         {todo.title}
                     </label>
                     <button className="btn btn-primary btn-sm" onClick={() => onRemove(todo.id)}>Удалить</button>
